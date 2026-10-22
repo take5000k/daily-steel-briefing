@@ -89,6 +89,26 @@
           "symbol": "JM0"
         }
       ]
+    },
+    "io_komis": {
+      "name": "KOMIS 철(철광석) 가격",
+      "sources": [
+        {
+          "type": "komis",
+          "grp": "HP003",
+          "mnrl": "MNRL1011"
+        }
+      ]
+    },
+    "coal_komis": {
+      "name": "KOMIS 유연탄 가격",
+      "sources": [
+        {
+          "type": "komis",
+          "grp": "HP003",
+          "mnrl": "MNRL0032"
+        }
+      ]
     }
   }
 }

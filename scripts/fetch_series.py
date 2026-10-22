@@ -10,6 +10,7 @@ import io
 import json
 import os
 import traceback
+import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -68,7 +69,56 @@ def src_akshare_main(s, start):
     return {str(r[dcol])[:10]: float(r[ccol]) for _, r in df.iterrows()}
 
 
-SOURCES = {"fred": src_fred, "yahoo": src_yahoo, "akshare_main": src_akshare_main}
+KOMIS = "https://www.komis.or.kr"
+KOMIS_PAGE = {"HP001": "BaseMetals", "HP002": "MinorMetals", "HP003": "IronOre", "HP004": "EtcMnrl"}
+
+
+def _komis_opener(grp):
+    import http.cookiejar
+    cj = http.cookiejar.CookieJar()
+    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+    page = f"{KOMIS}/Komis/RsrcPrice/{KOMIS_PAGE[grp]}"
+    op.open(urllib.request.Request(page, headers=UA), timeout=60).read()
+    hdr = {**UA, "X-Requested-With": "XMLHttpRequest", "Referer": page,
+           "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"}
+
+    def post(path, params):
+        data = urllib.parse.urlencode(params).encode()
+        with op.open(urllib.request.Request(KOMIS + path, data=data, headers=hdr), timeout=60) as r:
+            return json.loads(r.read().decode("utf-8"))
+    return post
+
+
+KOMIS_INFO = {}
+
+
+def src_komis(s, start):
+    """KOMIS 자원가격(일간). s: grp(HP003 등), mnrl(광종코드), crtr(가격기준 코드, 없으면 첫 번째)."""
+    post = _komis_opener(s["grp"])
+    crtrs = post("/Komis/RsrcPrice/ajax/getMnrlPriceCrtr", {"HP000": s["grp"], "mnrkndUnqCd": s["mnrl"]}).get("data", [])
+    pick = next((c for c in crtrs if str(c.get("cdKey")) == str(s.get("crtr"))), crtrs[0] if crtrs else None)
+    if not pick:
+        raise RuntimeError("가격기준 없음")
+    out, info = {}, None
+    y0 = int(start[:4])
+    params = {"mnrkndUnqRadioCd": s["mnrl"], "srchMnrkndUnqCd": s["mnrl"], "srchPrcCrtr": pick["cdKey"],
+              "srchAvgOpt": "DAY", "srchField": "year", "srchStartDate": y0,
+              "srchEndDate": dt.date.today().year, "srchCompareMnrkndUnqCd": "", "srchComparePrcCrtr": "[선택]"}
+    if pick.get("spcfct"):
+        params["spcfct"] = pick["spcfct"]
+    res = post("/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd", params)
+    info = (res.get("dataAvg") or {}).get("INFO")
+    for r in (res.get("data") or {}).get("defaultMnrl", []):
+        try:
+            d = r["crtrYmd"]
+            out[f"{d[:4]}-{d[4:6]}-{d[6:8]}"] = float(str(r["cmercPrc"]).replace(",", ""))
+        except (KeyError, ValueError):
+            continue
+    KOMIS_INFO[s["mnrl"]] = {"crtr_options": crtrs, "picked": pick, "info": info}
+    return {k: v for k, v in out.items() if k >= start}
+
+
+SOURCES = {"komis": src_komis, "fred": src_fred, "yahoo": src_yahoo, "akshare_main": src_akshare_main}
 
 
 def merge_write(key, new):
@@ -108,6 +158,7 @@ def main():
                 traceback.print_exc()
         log["series"][key] = entry
         print(key, "OK " + entry.get("source", "") + " " + entry.get("last", "") if entry["ok"] else "FAILED")
+    log["komis"] = KOMIS_INFO
     json.dump(log, open(os.path.join(SER_DIR, "_fetch_log.json"), "w"), ensure_ascii=False, indent=1)
 
 
