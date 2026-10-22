@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-10-22T06:11:55",
+ "run_utc": "2026-10-22T22:21:06",
  "series": {
   "us10y": {
    "ok": true,
@@ -10,8 +10,8 @@
     }
    ],
    "source": "yahoo:^TNX",
-   "last": "2026-10-21",
-   "rows": 452
+   "last": "2026-10-22",
+   "rows": 453
   },
   "wti": {
    "ok": true,
@@ -38,29 +38,29 @@
    "ok": true,
    "tried": [],
    "source": "akshare_main:RB0",
-   "last": "2026-10-21",
-   "rows": 434
+   "last": "2026-10-22",
+   "rows": 435
   },
   "cn_hrc": {
    "ok": true,
    "tried": [],
    "source": "akshare_main:HC0",
-   "last": "2026-10-21",
-   "rows": 434
+   "last": "2026-10-22",
+   "rows": 435
   },
   "io_dce": {
    "ok": true,
    "tried": [],
    "source": "akshare_main:I0",
-   "last": "2026-10-21",
-   "rows": 434
+   "last": "2026-10-22",
+   "rows": 435
   },
   "cc_dce": {
    "ok": true,
    "tried": [],
    "source": "akshare_main:JM0",
-   "last": "2026-10-21",
-   "rows": 434
+   "last": "2026-10-22",
+   "rows": 435
   },
   "io_komis": {
    "ok": true,
@@ -80,6 +80,14 @@
  "komis": {
   "MNRL1011": {
    "crtr_options": [
+    {
+     "spcfct": "99.095",
+     "cdKey": 504
+    },
+    {
+     "cdVal": "Iron Ore Fine",
+     "cdKey": 878
+    },
     {
      "cdVal": "Iron Ore Fines",
      "spcfct": "62%",
