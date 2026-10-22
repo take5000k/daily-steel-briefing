@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-10-22T05:59:24",
+ "run_utc": "2026-10-22T06:05:39",
  "series": {
   "us10y": {
    "ok": true,
@@ -63,23 +63,64 @@
    "rows": 434
   },
   "io_komis": {
-   "ok": false,
-   "tried": [
-    {
-     "source": "komis:",
-     "error": "HTTPError: HTTP Error 404: Not Found"
-    }
-   ]
+   "ok": true,
+   "tried": [],
+   "source": "komis:",
+   "last": "2026-10-21",
+   "rows": 424
   },
   "coal_komis": {
-   "ok": false,
-   "tried": [
-    {
-     "source": "komis:",
-     "error": "HTTPError: HTTP Error 404: Not Found"
-    }
-   ]
+   "ok": true,
+   "tried": [],
+   "source": "komis:",
+   "last": "2026-10-21",
+   "rows": 421
   }
  },
- "komis": {}
+ "komis": {
+  "MNRL1011": {
+   "crtr_options": [
+    {
+     "cdVal": "Iron Ore Fines",
+     "spcfct": "62%",
+     "cdKey": 793
+    }
+   ],
+   "picked": {
+    "cdVal": "Iron Ore Fines",
+    "spcfct": "62%",
+    "cdKey": 793
+   },
+   "info": {
+    "mnrkndKornNm": "철",
+    "prcCrtr": "Australian 62%min CNF China",
+    "isISE": "Y",
+    "weigUnitCd": "mt",
+    "prcUnitCdNm": "USD"
+   }
+  },
+  "MNRL0032": {
+   "crtr_options": [
+    {
+     "cdVal": "Thermal Coal",
+     "cdKey": 783
+    },
+    {
+     "cdVal": "Coking Coal",
+     "cdKey": 782
+    }
+   ],
+   "picked": {
+    "cdVal": "Thermal Coal",
+    "cdKey": 783
+   },
+   "info": {
+    "mnrkndKornNm": "유연탄",
+    "prcCrtr": " Q:5500 In port Qinhuangdao",
+    "isISE": "Y",
+    "weigUnitCd": "mt",
+    "prcUnitCdNm": "USD"
+   }
+  }
+ }
 }
