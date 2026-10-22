@@ -1,0 +1,66 @@
+{
+ "run_utc": "2026-10-22T05:53:45",
+ "series": {
+  "us10y": {
+   "ok": true,
+   "tried": [
+    {
+     "source": "fred:DGS10",
+     "error": "TimeoutError: The read operation timed out"
+    }
+   ],
+   "source": "yahoo:^TNX",
+   "last": "2026-10-21",
+   "rows": 452
+  },
+  "wti": {
+   "ok": true,
+   "tried": [],
+   "source": "yahoo:CL=F",
+   "last": "2026-10-22",
+   "rows": 455
+  },
+  "brent": {
+   "ok": true,
+   "tried": [],
+   "source": "yahoo:BZ=F",
+   "last": "2026-10-22",
+   "rows": 455
+  },
+  "usdkrw": {
+   "ok": true,
+   "tried": [],
+   "source": "yahoo:KRW=X",
+   "last": "2026-10-22",
+   "rows": 467
+  },
+  "cn_rebar": {
+   "ok": true,
+   "tried": [],
+   "source": "akshare_main:RB0",
+   "last": "2026-10-21",
+   "rows": 434
+  },
+  "cn_hrc": {
+   "ok": true,
+   "tried": [],
+   "source": "akshare_main:HC0",
+   "last": "2026-10-21",
+   "rows": 434
+  },
+  "io_dce": {
+   "ok": true,
+   "tried": [],
+   "source": "akshare_main:I0",
+   "last": "2026-10-21",
+   "rows": 434
+  },
+  "cc_dce": {
+   "ok": true,
+   "tried": [],
+   "source": "akshare_main:JM0",
+   "last": "2026-10-21",
+   "rows": 434
+  }
+ }
+}
