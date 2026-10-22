@@ -1,0 +1,624 @@
+{
+ "date": "2026-10-22",
+ "summary": [
+  "매크로: 미 10년물 5.13%(10.21)로 10월 초 고점(5.31%) 대비 소폭 하락, 유가는 중동 공급 차질로 WTI 98달러·Brent 108.8달러 고공 지속, 원/달러는 1,325원으로 하락세 지속",
+  "철강: 중국 철근·열연 현물 3,230~3,240위안 보합, 중국 철근 재고 548.5만톤(10.16주)으로 전주 대비 48.3만톤 감소. 9월 세계 조강생산은 10.23 worldsteel 발표 예정",
+  "원료: 철광석 90.9달러로 9월 평균 대비 약 7% 하락·중국 항만재고 1.7억톤 증가세, 원료탄 PHCC 267달러 강세, 튀르키예 HMS 395달러로 소폭 약세"
+ ],
+ "values": {
+  "us10y": {
+   "y": 4.293,
+   "h": 4.312,
+   "q": 4.755,
+   "pm": 4.989,
+   "mtd": 5.202,
+   "p1": 5.263,
+   "p2": 5.143,
+   "d1": 5.12,
+   "d0": 5.13,
+   "note": "미 재무부 일별 국채 수익률(Par Yield Curve, 10년) 기준. 기간 평균은 일별값 단순평균",
+   "src": "U.S. Treasury, Fed H.15"
+  },
+  "wti": {
+   "mtd": 93.82,
+   "p1": 90.64,
+   "p2": 96.41,
+   "d1": 97.82,
+   "d0": 98.0,
+   "note": "NYMEX 근월물 종가 기준(현물-선물 괴리 확대로 선물로 통일). 2025년·상반기·3Q·9월 열은 일별 근월물 시계열 자동 수집 후 산출",
+   "src": "Investing.com 선물 종가"
+  },
+  "brent": {
+   "mtd": 105.07,
+   "p1": 102.09,
+   "p2": 107.5,
+   "d1": 108.79,
+   "d0": 108.82,
+   "note": "ICE 근월물 종가 기준. 참고: EIA Brent 현물은 10.14 126.55로 선물 대비 큰 프리미엄",
+   "src": "Investing.com 선물 종가"
+  },
+  "usdkrw": {
+   "y": 1421.97,
+   "h": "1,483.85*",
+   "q": 1418.62,
+   "pm": 1358.75,
+   "mtd": 1339.76,
+   "p1": 1345.47,
+   "p2": 1336.13,
+   "d1": 1328.1,
+   "d0": 1325.2,
+   "note": "서울 외환시장 15:30 종가 기준(한국은행 ECOS 731Y003). *상반기는 종가 평균 확인 제한으로 매매기준율 평균 표기",
+   "src": "한국은행 ECOS"
+  },
+  "cn_rebar_sh": {
+   "y": "확인 제한",
+   "h": "확인 제한",
+   "q": "확인 제한",
+   "pm": "확인 제한",
+   "mtd": 3237.8,
+   "p1": 3245,
+   "p2": 3238,
+   "d1": 3230,
+   "d0": 3230,
+   "note": "상하이 HRB400 20mm 현물(同花顺 iFinD 지역별 현물가). 10.20 값은 10.21 전일대비 0으로 역산",
+   "src": "同花顺 iFinD, Mysteel"
+  },
+  "cn_rebar_nbs": {
+   "y": 3204.2,
+   "h": 3212.0,
+   "q": 3133.2,
+   "pm": 3174.6,
+   "mtd": "10월 순별 미발표",
+   "note": "국가통계국 유통영역 순(旬)별 전국평균 Φ20 HRB400E. 일부 순 미공표분 제외 단순평균",
+   "src": "中国国家统计局"
+  },
+  "cn_rebar_fut": {
+   "note": "SHFE 주력 연속물 종가(일별 자동 수집)",
+   "src": "상하이선물거래소(akshare)"
+  },
+  "cn_hrc_x2": {
+   "y": "확인 제한",
+   "h": 3315.2,
+   "q": 3294.9,
+   "pm": 3317.5,
+   "mtd": 3248.8,
+   "p1": 3259.7,
+   "p2": 3247.1,
+   "d1": 3240,
+   "d0": 3240,
+   "note": "西本新干线 열연 가격 일별 시리즈(규격·지역 미표기), 거래일 단순평균. 2025년은 시계열 미확보",
+   "src": "steelx2.com"
+  },
+  "cn_hrc_nbs": {
+   "y": 3346.3,
+   "h": 3322.4,
+   "q": 3298.4,
+   "pm": 3319.2,
+   "mtd": "10월 순별 미발표",
+   "note": "국가통계국 순별 전국평균 4.75mm Q235",
+   "src": "中国国家统计局"
+  },
+  "cn_hrc_fut": {
+   "note": "SHFE 주력 연속물 종가(일별 자동 수집)",
+   "src": "상하이선물거래소(akshare)"
+  },
+  "cs_world": {
+   "y": "1,849.4",
+   "h": 931.5,
+   "q": "(7~8월) 293.4",
+   "pm": "10.23 발표 예정",
+   "note": "worldsteel 월간 조강생산 최초 공표치. 3Q는 9월 미발표로 7~8월 합계",
+   "src": "worldsteel"
+  },
+  "cs_china": {
+   "y": 960.8,
+   "h": 500.0,
+   "q": "(7~8월) 151.5",
+   "pm": "73.59",
+   "note": "worldsteel 월간 조강생산 최초 공표치. 3Q는 9월 미발표로 7~8월 합계. 9월은 국가통계국 규모이상 기준(73.59백만톤, +0.1% y/y)",
+   "src": "worldsteel"
+  },
+  "cs_korea": {
+   "y": 61.9,
+   "h": 31.7,
+   "q": "(7~8월) 11.1",
+   "pm": "10.23 발표 예정",
+   "note": "worldsteel 월간 조강생산 최초 공표치. 3Q는 9월 미발표로 7~8월 합계",
+   "src": "worldsteel"
+  },
+  "cs_other": {
+   "y": 826.7,
+   "h": 399.8,
+   "q": "(7~8월) 130.8",
+   "pm": "10.23 발표 예정",
+   "note": "세계 − 중국 − 한국 (계산)",
+   "src": "worldsteel"
+  },
+  "rebar_sales_china": {
+   "y": 20100,
+   "h": 8470.9,
+   "note": "2025년은 Mysteel 연보의 실제소비량(Mysteel 추정치), 상반기는 Mysteel 반기보고서 표관소비(−10.47% y/y). 주간 단독 수치는 유료로 확인 제한",
+   "src": "Mysteel"
+  },
+  "rebar_sales_korea": {
+   "note": "제강사 출하량 기사 유료로 확인 제한. 참고: 국내 철근 유통가(SD400 10mm) 10.19 81.5만원/톤(10.9 대비 −2.5만원)",
+   "src": "스틸데일리"
+  },
+  "hrc_sales_world": {
+   "note": "품목별 세계 판매 공개 통계 없음(worldsteel은 전체 강재 수요만 제공)"
+  },
+  "rebar_sales_world": {
+   "note": "품목별 세계 판매 공개 통계 없음(worldsteel은 전체 강재 수요만 제공)"
+  },
+  "hrc_sales_other": {
+   "note": "품목별 세계 판매 공개 통계 없음(worldsteel은 전체 강재 수요만 제공)"
+  },
+  "rebar_sales_other": {
+   "note": "품목별 세계 판매 공개 통계 없음(worldsteel은 전체 강재 수요만 제공)"
+  },
+  "hrc_sales_china": {
+   "note": "열연 단독 표관소비는 공개 자료에서 확인 제한. 참고: 5대 강재 표관소비 709.43만톤(10.8 발표 주)",
+   "src": "Mysteel"
+  },
+  "cn_rebar_inv": {
+   "pm": "(9.18) 635.6",
+   "mtd": 570.5,
+   "p1": 581.5,
+   "p2": 548.5,
+   "note": "주간(사회재고+제철소재고, 계산). 최신 10.16주 548.5(사회 390.28, 제철소 158.18). 10월=3개 주(10.2·10.9·10.16) 평균, 상순=10.2·10.9주, 중순=10.16주",
+   "src": "同花顺 iFinD(Mysteel 계열)"
+  },
+  "cn_hrc_inv": {
+   "pm": 426.9,
+   "mtd": 442.1,
+   "p1": 443.8,
+   "p2": 438.7,
+   "note": "주간(사회재고+제철소재고, 계산). 최신 10.16주 438.7(사회 372.3, 제철소 66.42)",
+   "src": "同花顺 iFinD(Mysteel 계열)"
+  },
+  "io_px": {
+   "y": 100.2,
+   "h": 104.05,
+   "q": 97.4,
+   "pm": 97.7,
+   "d1": 90.86,
+   "d0": 90.85,
+   "note": "연·분기·월은 World Bank Pink Sheet(상반기=1·2Q 평균), 일별은 TradingEconomics. 10월 기간평균은 일별 전체 미확보로 확인 제한. KOMIS 가격 연동 작업 중",
+   "src": "World Bank, TradingEconomics"
+  },
+  "io_dce": {
+   "d1": 681.5,
+   "d0": 682.5,
+   "note": "DCE 주력 연속물 종가(일별 자동 수집)",
+   "src": "대련상품거래소"
+  },
+  "io_prod_world": {
+   "y": "(2025e) 2,600",
+   "note": "USGS MCS 2026 추정치(2025e). 연간 통계",
+   "src": "USGS"
+  },
+  "io_prod_aus": {
+   "y": "(2025e) 980",
+   "src": "USGS"
+  },
+  "io_prod_can": {
+   "y": "(2025e) 69",
+   "src": "USGS"
+  },
+  "io_prod_chn": {
+   "y": "(2025e) 290",
+   "src": "USGS"
+  },
+  "io_prod_ind": {
+   "y": "(2025e) 310",
+   "src": "USGS"
+  },
+  "io_prod_afr": {
+   "y": "(2025e) 81",
+   "note": "남아공+모리타니 합(계산). 기타 아프리카국 미분리",
+   "src": "USGS"
+  },
+  "io_prod_oth": {
+   "note": "세계 총계 반올림치로 잔차 산출 부적절. 참고: 브라질 2025e 420",
+   "src": "USGS"
+  },
+  "io_exp_world": {
+   "y": 1760,
+   "src": "SteelRadar"
+  },
+  "io_exp_aus": {
+   "y": 924,
+   "src": "SteelRadar"
+  },
+  "io_exp_can": {
+   "y": 61.9,
+   "src": "SteelRadar"
+  },
+  "io_exp_ind": {
+   "y": 26.4,
+   "src": "SteelRadar"
+  },
+  "io_exp_afr": {
+   "y": 78.0,
+   "note": "남아공 65.7+시에라리온 12.3(계산)",
+   "src": "SteelRadar"
+  },
+  "io_exp_oth": {
+   "note": "참고: 브라질 2025 420"
+  },
+  "io_imp_chn": {
+   "y": 1260,
+   "pm": 109.82,
+   "note": "중국 해관총서. 9월 −5.6% y/y, 1~9월 955(+4.1%)",
+   "src": "中国海关总署"
+  },
+  "io_imp_world": {},
+  "io_imp_ind": {},
+  "io_imp_kor": {},
+  "io_imp_jpn": {},
+  "io_imp_oth": {},
+  "io_port_inv": {
+   "p1": 17320,
+   "p2": 17370,
+   "note": "Mysteel 47개 항만(구 45항) 주간. 상순=10.8, 중순=10.15 발표치. 10.15 전년비 +15%, 5주 연속 증가",
+   "src": "Mysteel"
+  },
+  "cc_px": {
+   "y": 189.7,
+   "pm": 273.73,
+   "d1": 267.0,
+   "d0": "확인 제한",
+   "note": "2025년 GMK Center, 9월은 SGX 연결선물 평균(Cbonds), 일별 SGX 선물. 상반기·3Q 평균 공표치 미확보(참고: 1~7월 평균 236)",
+   "src": "GMK Center, Cbonds, SGX"
+  },
+  "cc_dce": {
+   "d0": 1410,
+   "note": "DCE 주력 연속물 종가(일별 자동 수집)",
+   "src": "대련상품거래소"
+  },
+  "cc_prod_world": {
+   "note": "국가별 원료탄 생산은 IEA 무료 보고서 미제공. 참고: 세계 원료탄 수요 2025 1,174",
+   "src": "IEA"
+  },
+  "cc_exp_world": {
+   "y": 304,
+   "note": "해상 원료탄 교역량(IEA). 2026 전망 약 320",
+   "src": "IEA"
+  },
+  "cc_exp_aus": {
+   "y": 142,
+   "q": 39.89,
+   "pm": 14.0,
+   "note": "9월 +12.4% y/y, 1~9월 114.03",
+   "src": "IEA, 호주 통계"
+  },
+  "cc_imp_chn": {
+   "y": 120.0,
+   "note": "2025 원산지: 몽골 60.07, 러시아 32.76, 캐나다 10.80, 호주 8.86. 8월 13.07(+28.7% y/y), 9월 원료탄 단독 확인 제한",
+   "src": "中国海关总署"
+  },
+  "sc_tr": {
+   "pm": 400,
+   "mtd": 399,
+   "p1": 403,
+   "p2": 395,
+   "note": "주간 시세(10.3주 403, 10.17주 395). 일별 공개 시세 없음. KOMIS 자원가격 메뉴에 철스크랩 미제공",
+   "src": "AISU, GMK Center"
+  },
+  "sc_jp": {
+   "p1": 52077,
+   "note": "관동철원협동조합 10.9 수출입찰 평균(11월 선적, 전월비 +3,964엔)",
+   "src": "Mysteel"
+  },
+  "sc_gen_world": {
+   "y": 480.0,
+   "note": "BIR 집계국 소비 기준(커버리지 약 75%). 2025 480",
+   "src": "BIR"
+  },
+  "sc_gen_usa": {
+   "y": "(2024) 55.3",
+   "src": "BIR"
+  },
+  "sc_gen_jpn": {
+   "y": "(2024) 30.8",
+   "src": "BIR"
+  },
+  "sc_gen_tur": {
+   "y": "(2024) 31.3",
+   "src": "BIR"
+  },
+  "sc_gen_kor": {
+   "y": "(2024) 22.5",
+   "note": "BIR 소비 기준. 연간 통계",
+   "src": "BIR"
+  },
+  "sc_gen_oth": {
+   "note": "참고(2024): 중국 209.7, EU27 76.6, 인도 34.4",
+   "src": "BIR"
+  },
+  "sc_exp_usa": {
+   "y": 11.77,
+   "note": "7월 1.07",
+   "src": "BIR, 미 상무부"
+  },
+  "sc_exp_jpn": {
+   "y": 7.71,
+   "note": "8월 0.423, 1~8월 4.47(−9.5%), 9월 미확인",
+   "src": "일본 재무성"
+  },
+  "sc_exp_tur": {
+   "note": "순수입국으로 수출 미미"
+  },
+  "sc_exp_kor": {
+   "note": "참고: 2025.1~11월 0.222",
+   "src": "KITA"
+  },
+  "sc_exp_oth": {
+   "note": "참고: EU27 2025 16.68",
+   "src": "BIR"
+  },
+  "sc_imp_kor": {
+   "y": 1.78,
+   "h": 0.75,
+   "q": "(7~8월) 0.32",
+   "pm": "9월 미공표",
+   "note": "HS 7204, 관세청·KITA. 6월 0.188, 7월 0.145, 8월 0.180",
+   "src": "관세청, KITA"
+  },
+  "sc_imp_ind": {
+   "y": 8.04,
+   "src": "BIR"
+  },
+  "sc_imp_oth": {
+   "note": "참고: 튀르키예 2025 18.77, 1~8월 12.73(TUIK)",
+   "src": "TUIK"
+  }
+ },
+ "news": [
+  {
+   "category": "매크로",
+   "media": "이투데이",
+   "title": "멈춰선 기준금리⋯'성장·물가과열'에 추가 인상 불씨 여전 [10월 금통위]",
+   "url": "https://www.etoday.co.kr/news/view/2638754",
+   "date": "2026-10-22",
+   "summary": [
+    "한은 금통위, 기준금리 연 3.00% 동결 결정함(7·8월 연속 인상 후 5개월 만의 동결)",
+    "경상수지 1~8월 누적 2,792억달러 흑자, 2분기 명목GDP 26.4% 증가 등 성장 과열 신호 지속",
+    "서울 아파트값 88주 연속 상승·가계대출 증가로 추가 인상 여지 남아 있다는 평가",
+    "차기 금통위는 11월 26일 예정, 건설·철근 수요에 금리 부담 지속 전망"
+   ]
+  },
+  {
+   "category": "매크로",
+   "media": "Nation Thailand",
+   "title": "Brent rises to US$110.11 a barrel on October 22 as US orders some diplomats out of Saudi Arabia",
+   "url": "https://www.nationthailand.com/news/world/40072588",
+   "date": "2026-10-22",
+   "summary": [
+    "10/21 브렌트 108.82달러(+0.03%), WTI 97.15달러(-0.7%) 마감, 22일 장중 브렌트 110달러대 재진입함",
+    "후티 반군의 사우디 공항·유전 공격으로 미국이 사우디 주재 외교관 일부 철수 지시",
+    "미 원유재고 306만배럴 감소로 시장 예상(82만배럴 감소) 크게 상회",
+    "러·우크라이나 협상 11월 재개 가능성은 유가 상단 제약 요인으로 작용"
+   ]
+  },
+  {
+   "category": "매크로",
+   "media": "Briefs Finance",
+   "title": "Treasury yields steady as investors await new data before Oct. 28 Fed meeting",
+   "url": "https://www.briefs.co/news/treasury-yields-steady-as-investors-await-new-data-before-oc/",
+   "date": "2026-10-21",
+   "summary": [
+    "미 국채 10년물 5.102%, 2년물 4.778%로 소폭 하락하며 보합세 유지함",
+    "중동 리스크로 WTI 97달러·브렌트 108달러 이상 유지되며 인플레 경계 지속",
+    "30년 고정 모기지 금리 7.41%로 고금리 환경 지속",
+    "10월 28일 FOMC 금리 결정 및 주간 실업수당 청구 발표 대기 국면"
+   ]
+  },
+  {
+   "category": "매크로",
+   "media": "Al Jazeera",
+   "title": "China's economy grows 4.5 percent in Q3, beating forecasts",
+   "url": "https://www.aljazeera.com/economy/2026/10/19/chinas-economy-grows-4-5-percent-in-q3-beating-forecasts",
+   "date": "2026-10-19",
+   "summary": [
+    "중국 3분기 GDP 전년비 4.5% 성장, 2분기(4.3%) 및 시장 예상 상회함",
+    "9월 산업생산 5.5% 증가했으나 소매판매 1.1% 증가에 그쳐 내수 부진 지속",
+    "1~9월 고정자산투자 7.2% 감소, 부동산 부문 위축 지속으로 철강 내수 회복 제한 전망",
+    "반도체·기술재 중심 수출이 1~3분기 16% 이상 증가하며 성장 견인"
+   ]
+  },
+  {
+   "category": "철강",
+   "media": "철강금속신문",
+   "title": "국내 조강 생산, 15년 만의 최저 딛고 올해 반등 전망",
+   "url": "https://www.snmnews.com/news/articleView.html?idxno=576217",
+   "date": "2026-10-21",
+   "summary": [
+    "2025년 국내 조강생산 6,223만톤으로 2010년 이후 최저 기록",
+    "1~8월 실적 기준 2026년 약 6,400만톤으로 전년비 약 3% 증가 추정됨",
+    "기저효과 및 조선용 후판 등 일부 품목 수요가 반등 요인으로 작용",
+    "건설 부진·제조업 수요 둔화로 본격 회복 판단은 이르다는 평가, 수입재 대체 여부가 변수"
+   ]
+  },
+  {
+   "category": "철강",
+   "media": "스틸데일리",
+   "title": "中 9월 조강 일평균 생산량 증가…누적 생산은 2.9% 감소",
+   "url": "https://www.steeldaily.co.kr/news/articleView.html?idxno=203713",
+   "date": "2026-10-22",
+   "summary": [
+    "중국 9월 조강생산 7,359만톤으로 전년비 0.1% 증가함",
+    "9월 일평균 조강생산 245.3만톤으로 8월 대비 1.9% 증가",
+    "9월 선철 생산 6,534만톤으로 전년비 1.4% 감소",
+    "1~9월 누적 조강생산 2.9% 감소로 감산 기조 지속 확인됨"
+   ]
+  },
+  {
+   "category": "철강",
+   "media": "철강금속신문",
+   "title": "[철근] 급락 뒤 주초 소강…주후반 시황은",
+   "url": "https://www.snmnews.com/news/articleView.html?idxno=576127",
+   "date": "2026-10-20",
+   "summary": [
+    "10월 3주차 국내 철근 유통가(SD400·10mm) 톤당 81만~82만원으로 약보합 출발함",
+    "전주 연휴 이후 저가 판매 확대로 톤당 2만원 하락한 상태",
+    "제강사 월초 휴동 확대에도 수요 부진으로 하락세 반전 실패",
+    "동국제강 10월 유통 기준가 90만원과 실거래가 괴리 확대 지속"
+   ]
+  },
+  {
+   "category": "철강",
+   "media": "스틸데일리",
+   "title": "철근 수입, 10월 들어 '급제동'...일평균 물량 반토막",
+   "url": "https://www.steeldaily.co.kr/news/articleView.html?idxno=203704",
+   "date": "2026-10-22",
+   "summary": [
+    "9월 철근 수입 1만7,086톤(일평균 약 570톤) 기록",
+    "10월 1~18일 수입 4,494톤으로 전년동기비 19.3% 감소함",
+    "10월 일평균 약 250톤 수준으로 9월 대비 절반 이하로 축소",
+    "중국산은 늘었으나 일본산 감소폭이 더 커 전체 수입 위축됨"
+   ]
+  },
+  {
+   "category": "원료-철광석",
+   "media": "철강금속신문",
+   "title": "[주간원료동향] '주중 89달러' 철광석價 하락 지속",
+   "url": "https://www.snmnews.com/news/articleView.html?idxno=576105",
+   "date": "2026-10-20",
+   "summary": [
+    "10월 2주 철광석(Fe 61%, 북중국 CFR) 주간 평균 톤당 90.38달러로 전주비 0.49달러 하락함",
+    "3주 연속 하락으로 연중 최저 수준 기록",
+    "15일 일일 가격 89.75달러로 올해 처음 90달러 하회",
+    "국경절 이후 중국 제강사 구매 확대 부재·수익성 악화로 쇳물 생산 저조 지속"
+   ]
+  },
+  {
+   "category": "원료-철광석",
+   "media": "The Motley Fool Australia",
+   "title": "Iron ore price set to tumble to US$72 per tonne. Here's why",
+   "url": "https://www.fool.com.au/2026/10/20/iron-ore-price-set-to-tumble-to-us72-per-tonne-heres-why/",
+   "date": "2026-10-20",
+   "summary": [
+    "철광석 가격 톤당 약 90.95달러로 2년래 최저, 1개월 6.7%·연초 대비 15.1% 하락함",
+    "호주 산업부, 철광석 평균가 FY27 83달러·FY31 72달러로 하락 전망",
+    "시만두(기니) 출하 본격화 등 공급 증가와 중국 철강 감산이 하락 요인",
+    "호주 철광석 수출액 FY26 1,230억→FY31 790억호주달러로 35% 감소 전망"
+   ]
+  },
+  {
+   "category": "원료-제철용탄",
+   "media": "SMM(Shanghai Metals Market)",
+   "title": "[SMM Coking Coal and Coke Daily Briefing] 20261021",
+   "url": "https://news.metal.com/newscontent/104171389-smm-coking-coal-and-coke-daily-briefing-20261021",
+   "date": "2026-10-21",
+   "summary": [
+    "린펀 저유황 강점탄 톤당 2,360위안 호가 형성됨",
+    "산시성 중단 탄광 재가동 빨라졌으나 안전감독으로 가동률 낮아 공급 타이트 지속",
+    "코크스 업계 적자·제강사 마진 축소로 고가 원료 구매 소극적",
+    "단기 보합 국면 예상, 일부 탄종은 약세 압력 전망"
+   ]
+  },
+  {
+   "category": "원료-제철용탄",
+   "media": "철강금속신문",
+   "title": "[오늘 중국은] 中 코크스업계, '하락하던' 코크스價 반등 시도",
+   "url": "https://www.snmnews.com/news/articleView.html?idxno=576180",
+   "date": "2026-10-20",
+   "summary": [
+    "세계 최대 독립 코크스 업체 쉬양그룹, 21일부터 습식 50위안·건식 55위안 인상 발표함",
+    "산시성 창즈·산둥성 코크스 업체도 동일 수준 인상 요구 확산",
+    "코크스가 하락 속 원료탄 가격 반등으로 코크스 업계 수익성 악화가 배경",
+    "제강사는 1차 인상 수용 거부 중으로 줄다리기 지속 전망"
+   ]
+  },
+  {
+   "category": "원료-철스크랩",
+   "media": "스틸데일리",
+   "title": "철 스크랩 수급 균형 속 제강사별 흐름 엇갈려",
+   "url": "https://www.steeldaily.co.kr/news/articleView.html?idxno=203716",
+   "date": "2026-10-22",
+   "summary": [
+    "10/20 기준 국내 전기로 11개사 철스크랩 재고 104만9천톤으로 전주비 0.3% 감소함",
+    "전주 4.7% 급증 후 숨고르기, 4개사 증가·5개사 감소·2개사 보합",
+    "6월 말 이후 100만톤대 초반에서 수급 균형 유지",
+    "현대제철 포함 봉형강사 재고 76만9천톤 기록"
+   ]
+  },
+  {
+   "category": "원료-철스크랩",
+   "media": "철강금속신문",
+   "title": "한국철강, 철스크랩價 8차 인하 합류",
+   "url": "https://www.snmnews.com/news/articleView.html?idxno=576152",
+   "date": "2026-10-20",
+   "summary": [
+    "한국철강, 전 등급 철스크랩 구매가격 톤당 1만원 인하 결정함",
+    "대한제강·YK스틸 등 동일 폭 인하에 동참한 조치",
+    "7월 초 이후 누적 8차 인하로 국내 스크랩 약세 기조 지속",
+    "옥내 야드 화재로 중단했던 입고 제한은 10/20 해제됨"
+   ]
+  },
+  {
+   "category": "원료-철스크랩",
+   "media": "스틸데일리",
+   "title": "日 철 스크랩 가격지표 급등",
+   "url": "https://www.steeldaily.co.kr/news/articleView.html?idxno=203718",
+   "date": "2026-10-22",
+   "summary": [
+    "일본철원협회 금주 H2 3지역 평균 톤당 48,400엔으로 전주비 1,500엔 상승함",
+    "간토 49,800엔(+2,300엔), 주부 48,100엔·간사이 47,100엔(각 +1,000엔) 기록",
+    "간토철원협동조합 입찰가 전월비 약 4,000엔 상승이 계기로 작용",
+    "도쿄제철 등 구매가 인상 확산으로 국내 약세와 한일 가격차 확대 전망"
+   ]
+  }
+ ],
+ "sources": [
+  {
+   "name": "U.S. Treasury Daily Par Yield Curve",
+   "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value_month=202610"
+  },
+  {
+   "name": "한국은행 ECOS 원/달러 종가(731Y003)",
+   "url": "https://ecos.bok.or.kr/"
+  },
+  {
+   "name": "Investing.com WTI·Brent 선물",
+   "url": "https://www.investing.com/commodities/crude-oil-historical-data"
+  },
+  {
+   "name": "worldsteel 월간 조강생산",
+   "url": "https://worldsteel.org/media/press-releases/"
+  },
+  {
+   "name": "中国国家统计局 유통영역 생산자료 가격",
+   "url": "https://www.stats.gov.cn/"
+  },
+  {
+   "name": "西本新干线(steelx2) 데이터베이스",
+   "url": "https://m.steelx2.com/"
+  },
+  {
+   "name": "同花顺 iFinD 철근·열연 재고",
+   "url": "http://news.10jqka.com.cn/20261016/c680760380.shtml"
+  },
+  {
+   "name": "World Bank Pink Sheet (Oct 2026)",
+   "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-October-2026.pdf"
+  },
+  {
+   "name": "USGS Mineral Commodity Summaries 2026 (Iron Ore)",
+   "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iron-ore.pdf"
+  },
+  {
+   "name": "IEA Coal reports",
+   "url": "https://www.iea.org/"
+  },
+  {
+   "name": "BIR World Steel Recycling in Figures",
+   "url": "https://www.bir.org/"
+  },
+  {
+   "name": "KOMIS 한국자원정보서비스 자원가격",
+   "url": "https://www.komis.or.kr/Komis/RsrcPrice/IronOre"
+  }
+ ]
+}

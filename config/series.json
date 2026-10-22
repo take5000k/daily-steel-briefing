@@ -1,0 +1,94 @@
+{
+  "_comment": "일별 시계열 자동 수집 설정. sources는 위에서부터 시도하여 성공한 첫 소스로 갱신. 수집 실패 시 기존 CSV 유지.",
+  "start": "2025-01-01",
+  "series": {
+    "us10y": {
+      "name": "미국 10년물 국채금리",
+      "sources": [
+        {
+          "type": "fred",
+          "id": "DGS10"
+        },
+        {
+          "type": "yahoo",
+          "ticker": "^TNX"
+        }
+      ]
+    },
+    "wti": {
+      "name": "WTI 근월물",
+      "sources": [
+        {
+          "type": "yahoo",
+          "ticker": "CL=F"
+        },
+        {
+          "type": "fred",
+          "id": "DCOILWTICO"
+        }
+      ]
+    },
+    "brent": {
+      "name": "Brent 근월물",
+      "sources": [
+        {
+          "type": "yahoo",
+          "ticker": "BZ=F"
+        },
+        {
+          "type": "fred",
+          "id": "DCOILBRENTEU"
+        }
+      ]
+    },
+    "usdkrw": {
+      "name": "원/달러 환율",
+      "sources": [
+        {
+          "type": "yahoo",
+          "ticker": "KRW=X"
+        },
+        {
+          "type": "fred",
+          "id": "DEXKOUS"
+        }
+      ]
+    },
+    "cn_rebar": {
+      "name": "중국 철근(SHFE 주력물)",
+      "sources": [
+        {
+          "type": "akshare_main",
+          "symbol": "RB0"
+        }
+      ]
+    },
+    "cn_hrc": {
+      "name": "중국 열연(SHFE 주력물)",
+      "sources": [
+        {
+          "type": "akshare_main",
+          "symbol": "HC0"
+        }
+      ]
+    },
+    "io_dce": {
+      "name": "DCE 철광석 주력",
+      "sources": [
+        {
+          "type": "akshare_main",
+          "symbol": "I0"
+        }
+      ]
+    },
+    "cc_dce": {
+      "name": "DCE 원료탄 주력",
+      "sources": [
+        {
+          "type": "akshare_main",
+          "symbol": "JM0"
+        }
+      ]
+    }
+  }
+}

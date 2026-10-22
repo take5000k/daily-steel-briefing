@@ -1,0 +1,724 @@
+{
+  "_comment": "섹션 > (소섹션) > 블록 > 행. 행에 series가 있으면 data/series/<series>.csv(일별)에서 기간값 자동 계산, 없으면 data/briefings/<일자>.json의 values에서 읽음. 그래프는 블록 단위, chart=line|bar. 가격 블록은 항상 맨 위.",
+  "sections": [
+    {
+      "id": "macro",
+      "title": "1. 매크로",
+      "parts": [
+        {
+          "id": "macro",
+          "title": "",
+          "blocks": [
+            {
+              "id": "us10y",
+              "title": "미국 10년물 국채금리",
+              "chart": "line",
+              "rows": [
+                {
+                  "key": "us10y",
+                  "name": "미국 10년물 국채금리",
+                  "unit": "%",
+                  "dec": 3,
+                  "series": "us10y"
+                }
+              ]
+            },
+            {
+              "id": "oil",
+              "title": "유가",
+              "chart": "line",
+              "rows": [
+                {
+                  "key": "wti",
+                  "name": "WTI",
+                  "unit": "$/bbl",
+                  "dec": 2,
+                  "series": "wti"
+                },
+                {
+                  "key": "brent",
+                  "name": "Brent",
+                  "unit": "$/bbl",
+                  "dec": 2,
+                  "series": "brent"
+                }
+              ]
+            },
+            {
+              "id": "usdkrw",
+              "title": "원/달러 환율",
+              "chart": "line",
+              "rows": [
+                {
+                  "key": "usdkrw",
+                  "name": "원/달러 환율",
+                  "unit": "원",
+                  "dec": 1,
+                  "series": "usdkrw"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "steel",
+      "title": "2. 철강 지표",
+      "parts": [
+        {
+          "id": "steel",
+          "title": "",
+          "blocks": [
+            {
+              "id": "steel_price",
+              "title": "가격",
+              "chart": "line",
+              "rows": [
+                {
+                  "key": "cn_rebar_sh",
+                  "name": "중국 철근 현물(상하이 HRB400 20mm)",
+                  "unit": "위안/톤",
+                  "dec": 0
+                },
+                {
+                  "key": "cn_rebar_nbs",
+                  "name": "중국 철근(전국 평균, 국가통계국)",
+                  "unit": "위안/톤",
+                  "dec": 0
+                },
+                {
+                  "key": "cn_rebar_fut",
+                  "name": "중국 철근 선물(SHFE 주력)",
+                  "unit": "위안/톤",
+                  "dec": 0,
+                  "series": "cn_rebar"
+                },
+                {
+                  "key": "cn_hrc_x2",
+                  "name": "중국 열연 현물(西本 steelx2)",
+                  "unit": "위안/톤",
+                  "dec": 0
+                },
+                {
+                  "key": "cn_hrc_nbs",
+                  "name": "중국 열연(전국 평균, 국가통계국)",
+                  "unit": "위안/톤",
+                  "dec": 0
+                },
+                {
+                  "key": "cn_hrc_fut",
+                  "name": "중국 열연 선물(SHFE 주력)",
+                  "unit": "위안/톤",
+                  "dec": 0,
+                  "series": "cn_hrc"
+                }
+              ]
+            },
+            {
+              "id": "steel_prod",
+              "title": "생산(조강)",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "cs_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cs_china",
+                  "name": "중국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cs_korea",
+                  "name": "한국",
+                  "unit": "백만톤",
+                  "dec": 2
+                },
+                {
+                  "key": "cs_other",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "steel_sales_hrc",
+              "title": "판매 - 열연",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "hrc_sales_world",
+                  "name": "세계",
+                  "unit": "만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "hrc_sales_china",
+                  "name": "중국",
+                  "unit": "만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "hrc_sales_korea",
+                  "name": "한국",
+                  "unit": "만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "hrc_sales_other",
+                  "name": "기타",
+                  "unit": "만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "steel_sales_rebar",
+              "title": "판매 - 철근",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "rebar_sales_world",
+                  "name": "세계",
+                  "unit": "만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "rebar_sales_china",
+                  "name": "중국",
+                  "unit": "만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "rebar_sales_korea",
+                  "name": "한국",
+                  "unit": "만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "rebar_sales_other",
+                  "name": "기타",
+                  "unit": "만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "steel_inv",
+              "title": "재고",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "cn_rebar_inv",
+                  "name": "중국 철근 재고(사회+제철소)",
+                  "unit": "만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cn_hrc_inv",
+                  "name": "중국 열연 재고(사회+제철소)",
+                  "unit": "만톤",
+                  "dec": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "raw",
+      "title": "3. 원료 지표",
+      "parts": [
+        {
+          "id": "iron_ore",
+          "title": "3-1. 철광석 (Iron Ore)",
+          "blocks": [
+            {
+              "id": "io_price",
+              "title": "가격",
+              "chart": "line",
+              "rows": [
+                {
+                  "key": "io_px",
+                  "name": "철광석 62% Fe 분광 CFR 중국",
+                  "unit": "$/dmt",
+                  "dec": 2
+                },
+                {
+                  "key": "io_dce",
+                  "name": "철광석 선물(DCE 주력)",
+                  "unit": "위안/톤",
+                  "dec": 1,
+                  "series": "io_dce"
+                }
+              ]
+            },
+            {
+              "id": "io_prod",
+              "title": "생산",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "io_prod_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_prod_aus",
+                  "name": "호주",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_prod_can",
+                  "name": "캐나다",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_prod_chn",
+                  "name": "중국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_prod_ind",
+                  "name": "인도",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_prod_afr",
+                  "name": "아프리카",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_prod_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "io_exp",
+              "title": "수출",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "io_exp_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_exp_aus",
+                  "name": "호주",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_exp_can",
+                  "name": "캐나다",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_exp_ind",
+                  "name": "인도",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_exp_afr",
+                  "name": "아프리카",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_exp_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "io_imp",
+              "title": "수입",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "io_imp_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_imp_chn",
+                  "name": "중국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_imp_ind",
+                  "name": "인도",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_imp_kor",
+                  "name": "한국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_imp_jpn",
+                  "name": "일본",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "io_imp_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "io_inv",
+              "title": "재고",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "io_port_inv",
+                  "name": "중국 항만 재고",
+                  "unit": "만톤",
+                  "dec": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "coking_coal",
+          "title": "3-2. 제철용탄 (Metallurgical Coal)",
+          "blocks": [
+            {
+              "id": "cc_price",
+              "title": "가격",
+              "chart": "line",
+              "rows": [
+                {
+                  "key": "cc_px",
+                  "name": "원료탄 PHCC FOB 호주",
+                  "unit": "$/톤",
+                  "dec": 2
+                },
+                {
+                  "key": "cc_dce",
+                  "name": "원료탄 선물(DCE 주력)",
+                  "unit": "위안/톤",
+                  "dec": 1,
+                  "series": "cc_dce"
+                }
+              ]
+            },
+            {
+              "id": "cc_prod",
+              "title": "생산",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "cc_prod_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_prod_aus",
+                  "name": "호주",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_prod_usa",
+                  "name": "미국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_prod_can",
+                  "name": "캐나다",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_prod_chn",
+                  "name": "중국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_prod_idn",
+                  "name": "인도네시아",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_prod_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "cc_exp",
+              "title": "수출",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "cc_exp_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_exp_aus",
+                  "name": "호주",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_exp_usa",
+                  "name": "미국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_exp_can",
+                  "name": "캐나다",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_exp_idn",
+                  "name": "인도네시아",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_exp_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "cc_imp",
+              "title": "수입",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "cc_imp_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_imp_chn",
+                  "name": "중국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_imp_ind",
+                  "name": "인도",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_imp_kor",
+                  "name": "한국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_imp_jpn",
+                  "name": "일본",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "cc_imp_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "scrap",
+          "title": "3-3. 철스크랩 (Steel Scrap)",
+          "blocks": [
+            {
+              "id": "sc_price",
+              "title": "가격",
+              "chart": "line",
+              "rows": [
+                {
+                  "key": "sc_tr",
+                  "name": "HMS 1&2(80:20) CFR 튀르키예",
+                  "unit": "$/톤",
+                  "dec": 0
+                },
+                {
+                  "key": "sc_jp",
+                  "name": "일본 H2 관동 수출입찰(FAS)",
+                  "unit": "엔/톤",
+                  "dec": 0
+                }
+              ]
+            },
+            {
+              "id": "sc_gen",
+              "title": "발생량",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "sc_gen_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_gen_usa",
+                  "name": "미국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_gen_jpn",
+                  "name": "일본",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_gen_tur",
+                  "name": "터키",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_gen_kor",
+                  "name": "한국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_gen_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "sc_exp",
+              "title": "수출",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "sc_exp_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_exp_usa",
+                  "name": "미국",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_exp_jpn",
+                  "name": "일본",
+                  "unit": "백만톤",
+                  "dec": 2
+                },
+                {
+                  "key": "sc_exp_tur",
+                  "name": "터키",
+                  "unit": "백만톤",
+                  "dec": 2
+                },
+                {
+                  "key": "sc_exp_kor",
+                  "name": "한국",
+                  "unit": "백만톤",
+                  "dec": 2
+                },
+                {
+                  "key": "sc_exp_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            },
+            {
+              "id": "sc_imp",
+              "title": "수입",
+              "chart": "bar",
+              "rows": [
+                {
+                  "key": "sc_imp_world",
+                  "name": "세계",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_imp_jpn",
+                  "name": "일본",
+                  "unit": "백만톤",
+                  "dec": 2
+                },
+                {
+                  "key": "sc_imp_kor",
+                  "name": "한국",
+                  "unit": "백만톤",
+                  "dec": 2
+                },
+                {
+                  "key": "sc_imp_ind",
+                  "name": "인도",
+                  "unit": "백만톤",
+                  "dec": 1
+                },
+                {
+                  "key": "sc_imp_oth",
+                  "name": "기타",
+                  "unit": "백만톤",
+                  "dec": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

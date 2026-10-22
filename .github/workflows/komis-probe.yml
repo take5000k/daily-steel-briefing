@@ -1,0 +1,25 @@
+name: komis-probe
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install --quiet playwright && python -m playwright install --with-deps chromium
+      - run: python scripts/komis_probe.py
+      - name: Commit probe result
+        run: |
+          git config user.name "briefing-bot"
+          git config user.email "briefing-bot@users.noreply.github.com"
+          git add data/series/_komis_probe.json
+          git diff --cached --quiet || git commit -m "probe: KOMIS price endpoints"
+          git pull --rebase --quiet && git push

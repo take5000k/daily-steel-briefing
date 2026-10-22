@@ -1,0 +1,46 @@
+name: daily-data
+
+on:
+  schedule:
+    - cron: "0 22 * * 0-4"   # 평일 07:00 KST (UTC 22:00, 일~목) — 일별 시계열 수집
+  workflow_dispatch:
+    inputs:
+      rebuild_date:
+        description: "특정 일자 페이지 재생성 (YYYY-MM-DD, 비우면 미생성 일자만)"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-data
+  cancel-in-progress: false
+
+jobs:
+  fetch-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install --quiet yfinance akshare pandas
+      - name: Fetch daily series
+        run: python scripts/fetch_series.py
+      - name: Build pages
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: |
+          if [ -n "${{ github.event.inputs.rebuild_date }}" ]; then
+            python scripts/build.py --date "${{ github.event.inputs.rebuild_date }}"
+          else
+            python scripts/build.py
+          fi
+      - name: Commit
+        run: |
+          git config user.name "briefing-bot"
+          git config user.email "briefing-bot@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "data: daily series $(date -u +%F)"
+          git pull --rebase --quiet && git push
