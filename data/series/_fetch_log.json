@@ -1,12 +1,12 @@
 {
- "run_utc": "2026-10-22T05:53:45",
+ "run_utc": "2026-10-22T05:59:24",
  "series": {
   "us10y": {
    "ok": true,
    "tried": [
     {
      "source": "fred:DGS10",
-     "error": "TimeoutError: The read operation timed out"
+     "error": "TimeoutError: FRED 3회 시도 실패"
     }
    ],
    "source": "yahoo:^TNX",
@@ -61,6 +61,25 @@
    "source": "akshare_main:JM0",
    "last": "2026-10-21",
    "rows": 434
+  },
+  "io_komis": {
+   "ok": false,
+   "tried": [
+    {
+     "source": "komis:",
+     "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+   ]
+  },
+  "coal_komis": {
+   "ok": false,
+   "tried": [
+    {
+     "source": "komis:",
+     "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+   ]
   }
- }
+ },
+ "komis": {}
 }
