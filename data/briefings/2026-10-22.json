@@ -3,7 +3,7 @@
  "summary": [
   "매크로: 미 10년물 5.13%(10.21)로 10월 초 고점(5.31%) 대비 소폭 하락, 유가는 중동 공급 차질로 WTI 97달러·Brent 108.8달러 고공 지속, 원/달러는 1,325원으로 하락세 지속",
   "철강: 중국 철근·열연 현물 3,230~3,240위안 보합, 중국 철근 재고 548.5만톤(10.16주)으로 전주 대비 48.3만톤 감소. 9월 세계 조강생산은 10.23 worldsteel 발표 예정",
-  "원료: 철광석 90.9달러로 9월 평균 대비 약 7% 하락·중국 항만재고 1.7억톤 증가세, 원료탄 PHCC 267달러 강세, 튀르키예 HMS 395달러로 소폭 약세"
+  "원료: 철광석(KOMIS 62% CNF) 89.5달러로 약세·중국 항만재고 1.7억톤 증가세, 제철용탄(KOMIS 중국 허난) 290.9달러로 강세, 튀르키예 HMS 395달러로 소폭 약세"
  ],
  "values": {
   "us10y": {
@@ -167,14 +167,8 @@
    "src": "同花顺 iFinD(Mysteel 계열)"
   },
   "io_px": {
-   "y": 100.2,
-   "h": 104.05,
-   "q": 97.4,
-   "pm": 97.7,
-   "d1": 90.86,
-   "d0": 90.85,
-   "note": "연·분기·월은 World Bank Pink Sheet(상반기=1·2Q 평균), 일별은 TradingEconomics. 10월 기간평균은 일별 전체 미확보로 확인 제한. KOMIS 가격 연동 작업 중",
-   "src": "World Bank, TradingEconomics"
+   "note": "KOMIS 자원가격 「철」 Iron Ore Fines 62%, Australian 62%min CNF China(USD/mt), 일간 자동 수집. 참고: World Bank 9월 평균 97.7",
+   "src": "KOMIS"
   },
   "io_dce": {
    "note": "DCE 주력 연속물 종가(일별 자동 수집)",
@@ -252,12 +246,8 @@
    "src": "Mysteel"
   },
   "cc_px": {
-   "y": 189.7,
-   "pm": 273.73,
-   "d1": 267.0,
-   "d0": "확인 제한",
-   "note": "2025년 GMK Center, 9월은 SGX 연결선물 평균(Cbonds), 일별 SGX 선물. 상반기·3Q 평균 공표치 미확보(참고: 1~7월 평균 236)",
-   "src": "GMK Center, Cbonds, SGX"
+   "note": "KOMIS 자원가격 「유연탄」 Coking Coal, A 10%max·V 26%max EXW Henan(USD/mt), 일간 자동 수집. 참고: 호주 PHCC FOB 10.20 267달러(SGX)",
+   "src": "KOMIS"
   },
   "cc_dce": {
    "note": "DCE 주력 연속물 종가(일별 자동 수집)",

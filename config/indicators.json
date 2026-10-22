@@ -421,7 +421,7 @@
               "rows": [
                 {
                   "key": "cc_px",
-                  "name": "제철용탄(KOMIS, Coking Coal)",
+                  "name": "제철용탄(KOMIS, 중국 허난 EXW)",
                   "unit": "$/톤",
                   "dec": 2,
                   "series": "coal_komis"
