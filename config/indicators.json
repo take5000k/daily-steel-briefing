@@ -246,9 +246,10 @@
               "rows": [
                 {
                   "key": "io_px",
-                  "name": "철광석 62% Fe 분광 CFR 중국",
-                  "unit": "$/dmt",
-                  "dec": 2
+                  "name": "철광석(KOMIS, 호주산 62% CNF 중국)",
+                  "unit": "$/톤",
+                  "dec": 2,
+                  "series": "io_komis"
                 },
                 {
                   "key": "io_dce",
@@ -420,9 +421,10 @@
               "rows": [
                 {
                   "key": "cc_px",
-                  "name": "원료탄 PHCC FOB 호주",
+                  "name": "제철용탄(KOMIS, Coking Coal)",
                   "unit": "$/톤",
-                  "dec": 2
+                  "dec": 2,
+                  "series": "coal_komis"
                 },
                 {
                   "key": "cc_dce",
