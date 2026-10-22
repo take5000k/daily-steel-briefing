@@ -73,20 +73,35 @@ KOMIS = "https://www.komis.or.kr"
 KOMIS_PAGE = {"HP001": "BaseMetals", "HP002": "MinorMetals", "HP003": "IronOre", "HP004": "EtcMnrl"}
 
 
-def _komis_opener(grp):
-    import http.cookiejar
-    cj = http.cookiejar.CookieJar()
-    op = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
-    page = f"{KOMIS}/Komis/RsrcPrice/{KOMIS_PAGE[grp]}"
-    op.open(urllib.request.Request(page, headers=UA), timeout=60).read()
-    hdr = {**UA, "X-Requested-With": "XMLHttpRequest", "Referer": page,
-           "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"}
+_KB = {}
 
-    def post(path, params):
-        data = urllib.parse.urlencode(params).encode()
-        with op.open(urllib.request.Request(KOMIS + path, data=data, headers=hdr), timeout=60) as r:
-            return json.loads(r.read().decode("utf-8"))
-    return post
+
+def _komis_post(grp, path, params):
+    """헤드리스 브라우저로 KOMIS 페이지를 연 뒤 같은 세션에서 AJAX POST(일반 요청은 거부됨)."""
+    from playwright.sync_api import sync_playwright
+    if "pw" not in _KB:
+        _KB["pw"] = sync_playwright().start()
+        _KB["browser"] = _KB["pw"].chromium.launch()
+    if _KB.get("grp") != grp:
+        if _KB.get("page"):
+            _KB["page"].close()
+        _KB["page"] = _KB["browser"].new_page(locale="ko-KR")
+        _KB["page"].goto(f"{KOMIS}/Komis/RsrcPrice/{KOMIS_PAGE[grp]}", wait_until="networkidle", timeout=90000)
+        _KB["grp"] = grp
+    body = urllib.parse.urlencode(params)
+    txt = _KB["page"].evaluate("""async ([u, b]) => { const r = await fetch(u, {method: 'POST', body: b,
+        headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'X-Requested-With': 'XMLHttpRequest'}});
+        return r.status + '\\n' + await r.text(); }""", [KOMIS + path, body])
+    status, _, text = txt.partition("\n")
+    if status != "200":
+        raise RuntimeError(f"KOMIS {path} HTTP {status}")
+    return json.loads(text)
+
+
+def komis_close():
+    if _KB.get("browser"):
+        _KB["browser"].close()
+        _KB["pw"].stop()
 
 
 KOMIS_INFO = {}
@@ -94,7 +109,7 @@ KOMIS_INFO = {}
 
 def src_komis(s, start):
     """KOMIS 자원가격(일간). s: grp(HP003 등), mnrl(광종코드), crtr(가격기준 코드, 없으면 첫 번째)."""
-    post = _komis_opener(s["grp"])
+    post = lambda path, prm: _komis_post(s["grp"], path, prm)  # noqa: E731
     crtrs = post("/Komis/RsrcPrice/ajax/getMnrlPriceCrtr", {"HP000": s["grp"], "mnrkndUnqCd": s["mnrl"]}).get("data", [])
     pick = next((c for c in crtrs if str(c.get("cdKey")) == str(s.get("crtr"))), crtrs[0] if crtrs else None)
     if not pick:
@@ -158,6 +173,7 @@ def main():
                 traceback.print_exc()
         log["series"][key] = entry
         print(key, "OK " + entry.get("source", "") + " " + entry.get("last", "") if entry["ok"] else "FAILED")
+    komis_close()
     log["komis"] = KOMIS_INFO
     json.dump(log, open(os.path.join(SER_DIR, "_fetch_log.json"), "w"), ensure_ascii=False, indent=1)
 

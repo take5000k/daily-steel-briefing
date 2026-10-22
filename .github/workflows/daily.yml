@@ -25,7 +25,7 @@ jobs:
         with:
           python-version: "3.11"
       - name: Install
-        run: pip install --quiet yfinance akshare pandas
+        run: pip install --quiet yfinance akshare pandas playwright && python -m playwright install --with-deps chromium
       - name: Fetch daily series
         run: python scripts/fetch_series.py
       - name: Build pages
