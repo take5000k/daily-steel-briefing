@@ -19,7 +19,18 @@ PAGES = [
 
 
 def main():
-    out = {"pages": []}
+    out = {"pages": [], "fatal": None}
+    try:
+        run(out)
+    except Exception as e:  # noqa: BLE001
+        import traceback
+        out["fatal"] = traceback.format_exc()[-3000:]
+    path = os.path.join(ROOT, "data", "series", "_komis_probe.json")
+    json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print("saved", path, out["fatal"] or [(r["url"], len(r["xhr"]), r["error"]) for r in out["pages"]])
+
+
+def run(out):
     with sync_playwright() as p:
         b = p.chromium.launch()
         ctx = b.new_context(locale="ko-KR")
@@ -58,9 +69,6 @@ def main():
             out["pages"].append(rec)
             page.close()
         b.close()
-    path = os.path.join(ROOT, "data", "series", "_komis_probe.json")
-    json.dump(out, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("saved", path, [(r["url"], len(r["xhr"]), r["error"]) for r in out["pages"]])
 
 
 if __name__ == "__main__":

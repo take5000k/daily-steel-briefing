@@ -24,7 +24,16 @@ def http_get(url, data=None, headers=None, timeout=40):
 
 
 def src_fred(s, start):
-    raw = http_get(f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={s['id']}&cosd={start}").decode()
+    url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={s['id']}&cosd={start}"
+    raw = None
+    for _ in range(3):
+        try:
+            raw = http_get(url, timeout=90).decode()
+            break
+        except Exception:  # noqa: BLE001
+            continue
+    if raw is None:
+        raise TimeoutError("FRED 3회 시도 실패")
     out = {}
     for r in csv.reader(io.StringIO(raw)):
         if len(r) < 2 or r[0] in ("DATE", "observation_date"):
