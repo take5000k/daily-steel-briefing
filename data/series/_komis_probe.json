@@ -1,0 +1,2974 @@
+{
+ "pages": [
+  {
+   "url": "https://www.komis.or.kr/Komis/RsrcPrice/IronOre",
+   "xhr": [
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/ajax/common/getFrontMenu",
+     "post": null,
+     "status": 200,
+     "body_head": "{\"data\":[{\"menuNm2\":\"일일자원뉴스\",\"menuCd\":\"010016000\",\"menuSrt\":\"110\",\"menuPath\":\"/Komis/Board/DAYNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"주간자원뉴스\",\"menuCd\":\"010017000\",\"menuSrt\":\"120\",\"menuPath\":\"/Komis/Board/WEEKNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"전략광종 월간동향\",\"menuCd\":\"010018000\",\"menuSrt\":\"130\",\"menuPath\":\"/Komis/Board/STRGMONTH\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"희소금속 월간동향\",\"menuCd\":\"010019000\",\"menuSrt\":\"140\",\"menuPath\":\"/Komis/Board/RAREMONTH\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"해외네트워크뉴스\",\"menuCd\":\"010021000\",\"menuSrt\":\"150\",\"menuPath\":\"/Komis/Board/FRNNETNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"비철금속\",\"menuCd\":\"013010000\",\"menuSrt\":\"210\",\"menuPath\":\"/Komis/RsrcPrice/BaseMetals\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"희소금속\",\"menuCd\":\"013011000\",\"menuSrt\":\"220\",\"menuPath\":\"/Komis/RsrcPrice/MinorMetals\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"철광석 및 에너지\",\"menuCd\":\"013012000\",\"menuSrt\":\"230\",\"menuPath\":\"/Komis/RsrcPrice/IronOre\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"기타\",\"menuCd\":\"013013000\",\"menuSrt\":\"240\",\"menuPath\":\"/Komis/RsrcPrice/EtcMnrl\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"국내원자재가격(조달청)\",\"menuCd\":\"013014000\",\"menuSrt\":\"250\",\"menuPath\":\"pps.go.kr/bichuk/bbs/list.do?key=00825\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"L\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"광물종합지수\",\"menuCd\":\"014010000\",\"menuSrt\":\"310\",\"menuPath\":\"/Komis/MnrlIndc/IndxMin\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"시장동향지표\",\"menuCd\":\"014011000\",\"menuSrt\":\"320\",\"menuPath\":\"/Komis/MnrlIndc/IndcMrkt\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"수급동향지표\",\"menuCd\":\"014012000\",\"menuSrt\":\"330\",\"menuPath\":\"/Komis/MnrlIndc/IndxSply\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"가격예측\",\"menuNm2\":\"광물가격예측\",\"menuCd\":\"014014010\",\"menuSrt\":\"341\",\"menuPath\":\"/Komis/MnrlIndc/PricePred\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"자원정보 FOCUS\",\"menuNm2\":\"광물가격예측\",\"menuCd\":\"014014011\",\"menuSrt\":\"342\",\"menuPath\":\"/Komis/Board/RESORCFOCUS\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"광종정보\",\"menuCd\":\"011010000\",\"menuSrt\":\"410\",\"menuPath\":\"/Komis/MnrlInfo/MnrlInfo\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"국가정보\",\"menuCd\":\"011011000\",\"menuSrt\":\"420\",\"menuPath\":\"/Komis/MnrlInfo/NationInfo\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"법령정보\",\"menuCd\":\"011012000\",\"menuSrt\":\"430\",\"menuPath\":\"/Komis/Board/LAWINFO\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"투자실무가이드\",\"menuCd\":\"011016000\",\"menuSrt\":\"470\",\"menuPath\":\"web.e-factory.co.kr/KOMIR/202610/index.html\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"L\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"대한민국\",\"menuNm2\":\""
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMnrlKndInfoCodeList",
+     "post": "cdType=HP000&cdGrp=HP003",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"우라늄\",\"cdEngVal\":\"Uranium\",\"cdKey\":\"MNRL0031\"},{\"cdVal\":\"유연탄\",\"cdEngVal\":\"Coal\",\"cdKey\":\"MNRL0032\"},{\"cdVal\":\"철\",\"cdEngVal\":\"Iron\",\"cdKey\":\"MNRL1011\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getCodeList",
+     "post": "cdGrp=PR000",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"USD\",\"cdSrt\":1,\"cdKey\":\"PR001\"},{\"cdVal\":\"천불\",\"cdSrt\":2,\"cdKey\":\"PR002\"},{\"cdVal\":\"백만불\",\"cdSrt\":3,\"cdKey\":\"PR003\"},{\"cdVal\":\"억불\",\"cdSrt\":4,\"cdKey\":\"PR004\"},{\"cdVal\":\"RMB\",\"cdSrt\":5,\"cdKey\":\"PR005\"},{\"cdVal\":\"Yn\",\"cdSrt\":7,\"cdKey\":\"PR007\"},{\"cdVal\":\"US￠\",\"cdSrt\":8,\"cdKey\":\"PR008\"},{\"cdVal\":\"CNY\",\"cdSrt\":9,\"cdKey\":\"PR009\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMnrlKndInfoCodeList",
+     "post": "cdType=HP000&cdGrp=HP003",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"우라늄\",\"cdEngVal\":\"Uranium\",\"cdKey\":\"MNRL0031\"},{\"cdVal\":\"유연탄\",\"cdEngVal\":\"Coal\",\"cdKey\":\"MNRL0032\"},{\"cdVal\":\"철\",\"cdEngVal\":\"Iron\",\"cdKey\":\"MNRL1011\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPriceCrtr",
+     "post": "HP000=HP003&mnrkndUnqCd=MNRL0031",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdKey\":509}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd",
+     "post": "mnrkndUnqRadioCd=MNRL0031&srchMnrkndUnqCd=MNRL0031&srchPrcCrtr=509&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y",
+     "status": 200,
+     "body_head": "{\"dataAvg\":{\"stdMap\":{\"MONTH\":{\"flctnPrc\":\"0.23\",\"crtrYmd\":\"202610\",\"flctnPrcnt\":\"0.26\"},\"YEAR\":{\"flctnPrc\":\"16.99\",\"crtrYmd\":\"2026\",\"flctnPrcnt\":\"23.23\"},\"CRTRYMD\":{\"crtrYmd\":\"20261012\",\"cmercPrc\":\"90.12\"},\"INFO\":{\"mnrkndKornNm\":\"우라늄\",\"prcCrtr\":\"Nuexco weekly price indicator $ per lb U3O8\",\"isISE\":\"N\",\"weigUnitCd\":\"lb\",\"prcUnitCdNm\":\"USD\"},\"WEEK\":{\"flctnPrc\":\"0.12\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"0.13\"},\"DAY\":{\"flctnPrc\":\"0.12\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"0.13\",\"cmercPrc\":90.12}},\"INFO\":{\"mnrkndKornNm\":\"우라늄\",\"prcCrtr\":\"Nuexco weekly price indicator $ per lb U3O8\",\"isISE\":\"N\",\"weigUnitCd\":\"lb\",\"prcUnitCdNm\":\"USD\"}},\"data\":{\"compareMnrl\":[],\"defaultMnrl\":[{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.12\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"0.13\",\"cmercPrc\":\"90.12\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.36\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261005\",\"flctnPrcnt\":\"0.40\",\"cmercPrc\":\"90.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.01\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260928\",\"flctnPrcnt\":\"0.01\",\"cmercPrc\":\"89.64\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.35\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260921\",\"flctnPrcnt\":\"-0.39\",\"cmercPrc\":\"89.63\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.32\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260914\",\"flctnPrcnt\":\"-0.35\",\"cmercPrc\":\"89.98\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.77\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260907\",\"flctnPrcnt\":\"0.86\",\"cmercPrc\":\"90.30\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.46\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260831\",\"flctnPrcnt\":\"-0.51\",\"cmercPrc\":\"89.53\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"1.69\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260824\",\"flctnPrcnt\":\"1.91\",\"cmercPrc\":\"89.99\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"1.19\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260817\",\"flctnPrcnt\":\"1.37\",\"cmercPrc\":\"88.30\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.66\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260810\",\"flctnPrcnt\":\"0.76\",\"cmercPrc\":\"87.11\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.09\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260803\",\"flctnPrcnt\":\"-0.10\",\"cmercPrc\":\"86.45\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.60\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260727\",\"flctnPrcnt\":\"0.70\",\"cmercPrc\":\"86.54\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.26\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260720\",\"flctnPrcnt\":\"0.30\",\"cmercPrc\":\"85.94\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.17\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260713\",\"flctnPrcnt\":\"-0.20\",\"cmercPrc\":\"8"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/Search/ajax/getSearchedWordList",
+     "post": null,
+     "status": 200,
+     "body_head": "{\"searchedWordList\":[]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMenuUpperCn",
+     "post": "menuCode=013012000",
+     "status": 200,
+     "body_head": "{\"upperCn\":\"본 서비스는 대국민 서비스 목적으로 명시적 또는 묵시적인 어떠한 형태의 보증도 하지 않으므로 법적 책임의 증빙자료로 사용될 수 없음을 알려드립니다.\",\"uprowClas\":\"U\"}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getChartData",
+     "post": "mnrkndUnqRadioCd=MNRL0031&srchMnrkndUnqCd=MNRL0031&srchPrcCrtr=509&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y&HP000=HP003",
+     "status": 200,
+     "body_head": "{\"data\":{\"xaxis\":[\"2024.01.01\",\"2024.01.08\",\"2024.01.15\",\"2024.01.22\",\"2024.01.29\",\"2024.02.05\",\"2024.02.12\",\"2024.02.19\",\"2024.02.26\",\"2024.03.04\",\"2024.03.11\",\"2024.03.18\",\"2024.03.25\",\"2024.04.01\",\"2024.04.08\",\"2024.04.15\",\"2024.04.22\",\"2024.04.29\",\"2024.05.06\",\"2024.05.13\",\"2024.05.20\",\"2024.05.27\",\"2024.06.03\",\"2024.06.10\",\"2024.06.17\",\"2024.06.24\",\"2024.07.01\",\"2024.07.08\",\"2024.07.15\",\"2024.07.22\",\"2024.07.29\",\"2024.08.05\",\"2024.08.12\",\"2024.08.19\",\"2024.08.26\",\"2024.09.02\",\"2024.09.09\",\"2024.09.16\",\"2024.09.23\",\"2024.09.30\",\"2024.10.07\",\"2024.10.14\",\"2024.10.21\",\"2024.10.28\",\"2024.11.04\",\"2024.11.11\",\"2024.11.18\",\"2024.11.25\",\"2024.12.02\",\"2024.12.09\",\"2024.12.16\",\"2024.12.23\",\"2024.12.30\",\"2025.01.06\",\"2025.01.13\",\"2025.01.20\",\"2025.01.27\",\"2025.02.03\",\"2025.02.10\",\"2025.02.17\",\"2025.02.24\",\"2025.03.03\",\"2025.03.10\",\"2025.03.17\",\"2025.03.24\",\"2025.03.31\",\"2025.04.07\",\"2025.04.14\",\"2025.04.21\",\"2025.04.28\",\"2025.05.05\",\"2025.05.12\",\"2025.05.19\",\"2025.05.26\",\"2025.06.02\",\"2025.06.09\",\"2025.06.16\",\"2025.06.23\",\"2025.06.30\",\"2025.07.07\",\"2025.07.14\",\"2025.07.21\",\"2025.07.28\",\"2025.08.04\",\"2025.08.11\",\"2025.08.18\",\"2025.08.25\",\"2025.09.01\",\"2025.09.08\",\"2025.09.15\",\"2025.09.22\",\"2025.09.29\",\"2025.10.06\",\"2025.10.13\",\"2025.10.20\",\"2025.10.27\",\"2025.11.03\",\"2025.11.10\",\"2025.11.17\",\"2025.11.24\",\"2025.12.01\",\"2025.12.08\",\"2025.12.15\",\"2025.12.22\",\"2025.12.29\",\"2026.01.05\",\"2026.01.12\",\"2026.01.19\",\"2026.01.26\",\"2026.02.02\",\"2026.02.09\",\"2026.02.16\",\"2026.02.23\",\"2026.03.02\",\"2026.03.09\",\"2026.03.16\",\"2026.03.23\",\"2026.03.30\",\"2026.04.06\",\"2026.04.13\",\"2026.04.20\",\"2026.04.27\",\"2026.05.04\",\"2026.05.11\",\"2026.05.18\",\"2026.05.25\",\"2026.06.01\",\"2026.06.08\",\"2026.06.15\",\"2026.06.22\",\"2026.06.29\",\"2026.07.06\",\"2026.07.13\",\"2026.07.20\",\"2026.07.27\",\"2026.08.03\",\"2026.08.10\",\"2026.08.17\",\"2026.08.24\",\"2026.08.31\",\"2026.09.07\",\"2026.09.14\",\"2026.09.21\",\"2026.09.28\",\"2026.10.05\",\"2026.10.12\"],\"mnrlInfo\":{\"mnrkndKornNm\":\"우라늄\",\"prcCrtr\":\"Nuexco weekly price indicator $ per lb U3O8\",\"isISE\":\"N\",\"weigUnitCd\":\"lb\",\"prcUnitCdNm\":\"USD\"},\"series\":[{\"data\":[\"92.25\",\"95.66\",\"105.81\",\"103.62\",\"102.52\",\"102.90\",\"102.93\",\"99.23\",\"95.00\",\"92.58\",\"86.99\",\"87.90\",\"89.04\",\"88.80\",\"89.15\",\"89.95\",\"88.59\",\"91.17\",\"93.35\",\"91.22\",\"91.99\",\"89.84\",\"88.61\",\"84.84\",\"85.49\",\"84.09\",\"85.66\",\"85.89\",\"85.22\",\"82.84\",\"83.48\",\"81.96\",\"81.71\",\"81.08\",\"79.45\",\"79.75\",\"79.68\",\"79.48\",\"80.75\",\"82.25\",\"83.54\",\"83.24\",\"82.35\",\"80.13\",\"77.52\",\"78.79\",\"80.34\",\"77.61\",\"77.67\",\"76.71\",\"74.42\",\"71.00\",\"73.39\",\"73.43\",\"73.81\",\"72.90\",\"71.95\",\"70.77\",\"67.48\",\"64.68\",\"65.19\",\"64.61\",\"63.87\",\"64.74\",\"64.36\",\"65.10\",\"64.92\",\"65.19\",\"66.15\",\"68.47\",\"70.45\",\"71.92\",\"71.36\",\"71.86\",\"71.24\",\"70.02\",\"75.35\",\"78.30\",\"77.93\",\"73.64\",\"72.09\",\"72.05\",\"71.61\",\"72.48\",\"73.02\",\"73.89\",\"75.22\",\"76.51\",\"76.44\",\"76.31\",\"81.27\",\"81.93\",\"79.22\",\"79.32\",\"76.65\",\"80.50\",\"79.01\",\"77.74\",\"76.15\",\"76.03\",\"76.37\",\"77.10\",\"78.97\",\"81.30\",\"81.83\",\"83.26\",\"84.16\",\"86.53\",\"95.95\",\"89.36\",\"88.43\",\"89.18\",\"87.96\",\"86.18\",\"85.81\""
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd",
+     "post": "mnrkndUnqRadioCd=MNRL0031&srchMnrkndUnqCd=MNRL0031&srchPrcCrtr=509&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y",
+     "status": 200,
+     "body_head": "{\"dataAvg\":{\"stdMap\":{\"MONTH\":{\"flctnPrc\":\"0.23\",\"crtrYmd\":\"202610\",\"flctnPrcnt\":\"0.26\"},\"YEAR\":{\"flctnPrc\":\"16.99\",\"crtrYmd\":\"2026\",\"flctnPrcnt\":\"23.23\"},\"CRTRYMD\":{\"crtrYmd\":\"20261012\",\"cmercPrc\":\"90.12\"},\"INFO\":{\"mnrkndKornNm\":\"우라늄\",\"prcCrtr\":\"Nuexco weekly price indicator $ per lb U3O8\",\"isISE\":\"N\",\"weigUnitCd\":\"lb\",\"prcUnitCdNm\":\"USD\"},\"WEEK\":{\"flctnPrc\":\"0.12\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"0.13\"},\"DAY\":{\"flctnPrc\":\"0.12\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"0.13\",\"cmercPrc\":90.12}},\"INFO\":{\"mnrkndKornNm\":\"우라늄\",\"prcCrtr\":\"Nuexco weekly price indicator $ per lb U3O8\",\"isISE\":\"N\",\"weigUnitCd\":\"lb\",\"prcUnitCdNm\":\"USD\"}},\"data\":{\"compareMnrl\":[],\"defaultMnrl\":[{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.12\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"0.13\",\"cmercPrc\":\"90.12\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.36\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261005\",\"flctnPrcnt\":\"0.40\",\"cmercPrc\":\"90.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.01\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260928\",\"flctnPrcnt\":\"0.01\",\"cmercPrc\":\"89.64\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.35\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260921\",\"flctnPrcnt\":\"-0.39\",\"cmercPrc\":\"89.63\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.32\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260914\",\"flctnPrcnt\":\"-0.35\",\"cmercPrc\":\"89.98\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.77\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260907\",\"flctnPrcnt\":\"0.86\",\"cmercPrc\":\"90.30\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.46\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260831\",\"flctnPrcnt\":\"-0.51\",\"cmercPrc\":\"89.53\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"1.69\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260824\",\"flctnPrcnt\":\"1.91\",\"cmercPrc\":\"89.99\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"1.19\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260817\",\"flctnPrcnt\":\"1.37\",\"cmercPrc\":\"88.30\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.66\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260810\",\"flctnPrcnt\":\"0.76\",\"cmercPrc\":\"87.11\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.09\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260803\",\"flctnPrcnt\":\"-0.10\",\"cmercPrc\":\"86.45\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.60\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260727\",\"flctnPrcnt\":\"0.70\",\"cmercPrc\":\"86.54\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"0.26\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260720\",\"flctnPrcnt\":\"0.30\",\"cmercPrc\":\"85.94\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.17\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20260713\",\"flctnPrcnt\":\"-0.20\",\"cmercPrc\":\"8"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getChartData",
+     "post": "mnrkndUnqRadioCd=MNRL0031&srchMnrkndUnqCd=MNRL0031&srchPrcCrtr=509&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y&HP000=HP003",
+     "status": 200,
+     "body_head": "{\"data\":{\"xaxis\":[\"2024.01.01\",\"2024.01.08\",\"2024.01.15\",\"2024.01.22\",\"2024.01.29\",\"2024.02.05\",\"2024.02.12\",\"2024.02.19\",\"2024.02.26\",\"2024.03.04\",\"2024.03.11\",\"2024.03.18\",\"2024.03.25\",\"2024.04.01\",\"2024.04.08\",\"2024.04.15\",\"2024.04.22\",\"2024.04.29\",\"2024.05.06\",\"2024.05.13\",\"2024.05.20\",\"2024.05.27\",\"2024.06.03\",\"2024.06.10\",\"2024.06.17\",\"2024.06.24\",\"2024.07.01\",\"2024.07.08\",\"2024.07.15\",\"2024.07.22\",\"2024.07.29\",\"2024.08.05\",\"2024.08.12\",\"2024.08.19\",\"2024.08.26\",\"2024.09.02\",\"2024.09.09\",\"2024.09.16\",\"2024.09.23\",\"2024.09.30\",\"2024.10.07\",\"2024.10.14\",\"2024.10.21\",\"2024.10.28\",\"2024.11.04\",\"2024.11.11\",\"2024.11.18\",\"2024.11.25\",\"2024.12.02\",\"2024.12.09\",\"2024.12.16\",\"2024.12.23\",\"2024.12.30\",\"2025.01.06\",\"2025.01.13\",\"2025.01.20\",\"2025.01.27\",\"2025.02.03\",\"2025.02.10\",\"2025.02.17\",\"2025.02.24\",\"2025.03.03\",\"2025.03.10\",\"2025.03.17\",\"2025.03.24\",\"2025.03.31\",\"2025.04.07\",\"2025.04.14\",\"2025.04.21\",\"2025.04.28\",\"2025.05.05\",\"2025.05.12\",\"2025.05.19\",\"2025.05.26\",\"2025.06.02\",\"2025.06.09\",\"2025.06.16\",\"2025.06.23\",\"2025.06.30\",\"2025.07.07\",\"2025.07.14\",\"2025.07.21\",\"2025.07.28\",\"2025.08.04\",\"2025.08.11\",\"2025.08.18\",\"2025.08.25\",\"2025.09.01\",\"2025.09.08\",\"2025.09.15\",\"2025.09.22\",\"2025.09.29\",\"2025.10.06\",\"2025.10.13\",\"2025.10.20\",\"2025.10.27\",\"2025.11.03\",\"2025.11.10\",\"2025.11.17\",\"2025.11.24\",\"2025.12.01\",\"2025.12.08\",\"2025.12.15\",\"2025.12.22\",\"2025.12.29\",\"2026.01.05\",\"2026.01.12\",\"2026.01.19\",\"2026.01.26\",\"2026.02.02\",\"2026.02.09\",\"2026.02.16\",\"2026.02.23\",\"2026.03.02\",\"2026.03.09\",\"2026.03.16\",\"2026.03.23\",\"2026.03.30\",\"2026.04.06\",\"2026.04.13\",\"2026.04.20\",\"2026.04.27\",\"2026.05.04\",\"2026.05.11\",\"2026.05.18\",\"2026.05.25\",\"2026.06.01\",\"2026.06.08\",\"2026.06.15\",\"2026.06.22\",\"2026.06.29\",\"2026.07.06\",\"2026.07.13\",\"2026.07.20\",\"2026.07.27\",\"2026.08.03\",\"2026.08.10\",\"2026.08.17\",\"2026.08.24\",\"2026.08.31\",\"2026.09.07\",\"2026.09.14\",\"2026.09.21\",\"2026.09.28\",\"2026.10.05\",\"2026.10.12\"],\"mnrlInfo\":{\"mnrkndKornNm\":\"우라늄\",\"prcCrtr\":\"Nuexco weekly price indicator $ per lb U3O8\",\"isISE\":\"N\",\"weigUnitCd\":\"lb\",\"prcUnitCdNm\":\"USD\"},\"series\":[{\"data\":[\"92.25\",\"95.66\",\"105.81\",\"103.62\",\"102.52\",\"102.90\",\"102.93\",\"99.23\",\"95.00\",\"92.58\",\"86.99\",\"87.90\",\"89.04\",\"88.80\",\"89.15\",\"89.95\",\"88.59\",\"91.17\",\"93.35\",\"91.22\",\"91.99\",\"89.84\",\"88.61\",\"84.84\",\"85.49\",\"84.09\",\"85.66\",\"85.89\",\"85.22\",\"82.84\",\"83.48\",\"81.96\",\"81.71\",\"81.08\",\"79.45\",\"79.75\",\"79.68\",\"79.48\",\"80.75\",\"82.25\",\"83.54\",\"83.24\",\"82.35\",\"80.13\",\"77.52\",\"78.79\",\"80.34\",\"77.61\",\"77.67\",\"76.71\",\"74.42\",\"71.00\",\"73.39\",\"73.43\",\"73.81\",\"72.90\",\"71.95\",\"70.77\",\"67.48\",\"64.68\",\"65.19\",\"64.61\",\"63.87\",\"64.74\",\"64.36\",\"65.10\",\"64.92\",\"65.19\",\"66.15\",\"68.47\",\"70.45\",\"71.92\",\"71.36\",\"71.86\",\"71.24\",\"70.02\",\"75.35\",\"78.30\",\"77.93\",\"73.64\",\"72.09\",\"72.05\",\"71.61\",\"72.48\",\"73.02\",\"73.89\",\"75.22\",\"76.51\",\"76.44\",\"76.31\",\"81.27\",\"81.93\",\"79.22\",\"79.32\",\"76.65\",\"80.50\",\"79.01\",\"77.74\",\"76.15\",\"76.03\",\"76.37\",\"77.10\",\"78.97\",\"81.30\",\"81.83\",\"83.26\",\"84.16\",\"86.53\",\"95.95\",\"89.36\",\"88.43\",\"89.18\",\"87.96\",\"86.18\",\"85.81\""
+    }
+   ],
+   "tables": [
+    [
+     [
+      "기준일",
+      "가격",
+      "전일대비",
+      "전주평균대비",
+      "전월평균대비",
+      "전년평균대비"
+     ],
+     [
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)"
+     ],
+     [
+      "2026-10-12",
+      "90.12",
+      "상승 :0.12",
+      "상승 :0.13",
+      "상승 :0.12",
+      "상승 :0.13",
+      "상승 :0.23",
+      "상승 :0.26",
+      "상승 :16.99",
+      "상승 :23.23"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "기준가격",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "2026-10-12",
+      "90.12",
+      "상승 :0.12",
+      "상승 :0.13"
+     ],
+     [
+      "2026-10-05",
+      "90.00",
+      "상승 :0.36",
+      "상승 :0.40"
+     ],
+     [
+      "2026-09-28",
+      "89.64",
+      "상승 :0.01",
+      "상승 :0.01"
+     ],
+     [
+      "2026-09-21",
+      "89.63",
+      "하락 :0.35",
+      "하락 :0.39"
+     ],
+     [
+      "2026-09-14",
+      "89.98",
+      "하락 :0.32",
+      "하락 :0.35"
+     ],
+     [
+      "2026-09-07",
+      "90.30",
+      "상승 :0.77",
+      "상승 :0.86"
+     ],
+     [
+      "2026-08-31",
+      "89.53",
+      "하락 :0.46",
+      "하락 :0.51"
+     ],
+     [
+      "2026-08-24",
+      "89.99",
+      "상승 :1.69",
+      "상승 :1.91"
+     ],
+     [
+      "2026-08-17",
+      "88.30",
+      "상승 :1.19",
+      "상승 :1.37"
+     ],
+     [
+      "2026-08-10",
+      "87.11",
+      "상승 :0.66",
+      "상승 :0.76"
+     ],
+     [
+      "2026-08-03",
+      "86.45",
+      "하락 :0.09",
+      "하락 :0.10"
+     ],
+     [
+      "2026-07-27",
+      "86.54",
+      "상승 :0.60",
+      "상승 :0.70"
+     ],
+     [
+      "2026-07-20",
+      "85.94",
+      "상승 :0.26",
+      "상승 :0.30"
+     ],
+     [
+      "2026-07-13",
+      "85.68",
+      "하락 :0.17",
+      "하락 :0.20"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "가격",
+      "전일대비",
+      "전주평균대비",
+      "전월평균대비",
+      "전년평균대비"
+     ],
+     [
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "기준가격",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "데이터가 없습니다."
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "재고량",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ]
+    ]
+   ],
+   "selects": {
+    "srchMnrkndUnqCd": [
+     [
+      "MNRL0031",
+      "우라늄"
+     ],
+     [
+      "MNRL0032",
+      "유연탄"
+     ],
+     [
+      "MNRL1011",
+      "철"
+     ]
+    ],
+    "srchPrcCrtr": [
+     [
+      "509",
+      "-"
+     ]
+    ],
+    "spcfct": [],
+    "srchAvgOpt": [
+     [
+      "DAY",
+      "일간"
+     ],
+     [
+      "WEEK",
+      "주간"
+     ],
+     [
+      "MONTH",
+      "월간"
+     ],
+     [
+      "QUARTER",
+      "분기"
+     ],
+     [
+      "YEAR",
+      "년간"
+     ]
+    ],
+    "srchStartDate": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ]
+    ],
+    "srchEndDate": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ]
+    ],
+    "srchCompareMnrkndUnqCd": [
+     [
+      "",
+      "[선택]"
+     ],
+     [
+      "MNRL0031",
+      "우라늄"
+     ],
+     [
+      "MNRL0032",
+      "유연탄"
+     ],
+     [
+      "MNRL1011",
+      "철"
+     ]
+    ],
+    "srchComparePrcCrtr": [
+     [
+      "[선택]",
+      "[선택]"
+     ]
+    ]
+   },
+   "error": null
+  },
+  {
+   "url": "https://www.komis.or.kr/Komis/RsrcPrice/BaseMetals",
+   "xhr": [
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/ajax/common/getFrontMenu",
+     "post": null,
+     "status": 200,
+     "body_head": "{\"data\":[{\"menuNm2\":\"일일자원뉴스\",\"menuCd\":\"010016000\",\"menuSrt\":\"110\",\"menuPath\":\"/Komis/Board/DAYNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"주간자원뉴스\",\"menuCd\":\"010017000\",\"menuSrt\":\"120\",\"menuPath\":\"/Komis/Board/WEEKNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"전략광종 월간동향\",\"menuCd\":\"010018000\",\"menuSrt\":\"130\",\"menuPath\":\"/Komis/Board/STRGMONTH\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"희소금속 월간동향\",\"menuCd\":\"010019000\",\"menuSrt\":\"140\",\"menuPath\":\"/Komis/Board/RAREMONTH\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"해외네트워크뉴스\",\"menuCd\":\"010021000\",\"menuSrt\":\"150\",\"menuPath\":\"/Komis/Board/FRNNETNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"비철금속\",\"menuCd\":\"013010000\",\"menuSrt\":\"210\",\"menuPath\":\"/Komis/RsrcPrice/BaseMetals\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"희소금속\",\"menuCd\":\"013011000\",\"menuSrt\":\"220\",\"menuPath\":\"/Komis/RsrcPrice/MinorMetals\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"철광석 및 에너지\",\"menuCd\":\"013012000\",\"menuSrt\":\"230\",\"menuPath\":\"/Komis/RsrcPrice/IronOre\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"기타\",\"menuCd\":\"013013000\",\"menuSrt\":\"240\",\"menuPath\":\"/Komis/RsrcPrice/EtcMnrl\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"국내원자재가격(조달청)\",\"menuCd\":\"013014000\",\"menuSrt\":\"250\",\"menuPath\":\"pps.go.kr/bichuk/bbs/list.do?key=00825\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"L\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"광물종합지수\",\"menuCd\":\"014010000\",\"menuSrt\":\"310\",\"menuPath\":\"/Komis/MnrlIndc/IndxMin\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"시장동향지표\",\"menuCd\":\"014011000\",\"menuSrt\":\"320\",\"menuPath\":\"/Komis/MnrlIndc/IndcMrkt\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"수급동향지표\",\"menuCd\":\"014012000\",\"menuSrt\":\"330\",\"menuPath\":\"/Komis/MnrlIndc/IndxSply\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"가격예측\",\"menuNm2\":\"광물가격예측\",\"menuCd\":\"014014010\",\"menuSrt\":\"341\",\"menuPath\":\"/Komis/MnrlIndc/PricePred\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"자원정보 FOCUS\",\"menuNm2\":\"광물가격예측\",\"menuCd\":\"014014011\",\"menuSrt\":\"342\",\"menuPath\":\"/Komis/Board/RESORCFOCUS\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"광종정보\",\"menuCd\":\"011010000\",\"menuSrt\":\"410\",\"menuPath\":\"/Komis/MnrlInfo/MnrlInfo\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"국가정보\",\"menuCd\":\"011011000\",\"menuSrt\":\"420\",\"menuPath\":\"/Komis/MnrlInfo/NationInfo\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"법령정보\",\"menuCd\":\"011012000\",\"menuSrt\":\"430\",\"menuPath\":\"/Komis/Board/LAWINFO\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"투자실무가이드\",\"menuCd\":\"011016000\",\"menuSrt\":\"470\",\"menuPath\":\"web.e-factory.co.kr/KOMIR/202610/index.html\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"L\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"대한민국\",\"menuNm2\":\""
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMnrlKndInfoCodeList",
+     "post": "cdType=HP000&cdGrp=HP001",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"니켈\",\"cdEngVal\":\"Nickel\",\"cdKey\":\"MNRL0002\"},{\"cdVal\":\"동\",\"cdEngVal\":\"Copper\",\"cdKey\":\"MNRL0008\"},{\"cdVal\":\"아연\",\"cdEngVal\":\"Zinc\",\"cdKey\":\"MNRL0023\"},{\"cdVal\":\"알루미늄\",\"cdEngVal\":\"Aluminum\",\"cdKey\":\"MNRL0009\"},{\"cdVal\":\"연\",\"cdEngVal\":\"Lead\",\"cdKey\":\"MNRL0022\"},{\"cdVal\":\"주석\",\"cdEngVal\":\"Tin\",\"cdKey\":\"MNRL0016\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getCodeList",
+     "post": "cdGrp=PR000",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"USD\",\"cdSrt\":1,\"cdKey\":\"PR001\"},{\"cdVal\":\"천불\",\"cdSrt\":2,\"cdKey\":\"PR002\"},{\"cdVal\":\"백만불\",\"cdSrt\":3,\"cdKey\":\"PR003\"},{\"cdVal\":\"억불\",\"cdSrt\":4,\"cdKey\":\"PR004\"},{\"cdVal\":\"RMB\",\"cdSrt\":5,\"cdKey\":\"PR005\"},{\"cdVal\":\"Yn\",\"cdSrt\":7,\"cdKey\":\"PR007\"},{\"cdVal\":\"US￠\",\"cdSrt\":8,\"cdKey\":\"PR008\"},{\"cdVal\":\"CNY\",\"cdSrt\":9,\"cdKey\":\"PR009\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMnrlKndInfoCodeList",
+     "post": "cdType=HP000&cdGrp=HP001",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"니켈\",\"cdEngVal\":\"Nickel\",\"cdKey\":\"MNRL0002\"},{\"cdVal\":\"동\",\"cdEngVal\":\"Copper\",\"cdKey\":\"MNRL0008\"},{\"cdVal\":\"아연\",\"cdEngVal\":\"Zinc\",\"cdKey\":\"MNRL0023\"},{\"cdVal\":\"알루미늄\",\"cdEngVal\":\"Aluminum\",\"cdKey\":\"MNRL0009\"},{\"cdVal\":\"연\",\"cdEngVal\":\"Lead\",\"cdKey\":\"MNRL0022\"},{\"cdVal\":\"주석\",\"cdEngVal\":\"Tin\",\"cdKey\":\"MNRL0016\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPriceCrtr",
+     "post": "HP000=HP001&mnrkndUnqCd=MNRL0002",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"LME CASH\",\"cdKey\":502},{\"cdVal\":\"LME 3개월\",\"cdKey\":497}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd",
+     "post": "mnrkndUnqRadioCd=MNRL0002&srchMnrkndUnqCd=MNRL0002&srchPrcCrtr=502&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y",
+     "status": 200,
+     "body_head": "{\"dataAvg\":{\"stdMap\":{\"MONTH\":{\"flctnPrc\":\"-478.86\",\"crtrYmd\":\"202610\",\"flctnPrcnt\":\"-2.94\"},\"YEAR\":{\"flctnPrc\":\"670.06\",\"crtrYmd\":\"2026\",\"flctnPrcnt\":\"4.42\"},\"CRTRYMD\":{\"crtrYmd\":\"20261021\",\"cmercPrc\":\"15830.00\"},\"INFO\":{\"mnrkndKornNm\":\"니켈\",\"prcCrtr\":\"LME CASH\",\"isISE\":\"N\",\"weigUnitCd\":\"ton\",\"prcUnitCdNm\":\"USD\"},\"WEEK\":{\"flctnPrc\":\"532.00\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"3.48\"},\"DAY\":{\"flctnPrc\":\"480.00\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"3.13\",\"cmercPrc\":15830}},\"INFO\":{\"mnrkndKornNm\":\"니켈\",\"prcCrtr\":\"LME CASH\",\"isISE\":\"N\",\"weigUnitCd\":\"ton\",\"prcUnitCdNm\":\"USD\"}},\"data\":{\"compareMnrl\":[],\"defaultMnrl\":[{\"lowstPrc\":\"0.00\",\"invt\":\"280866.00\",\"flctnPrc\":\"480.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"3.13\",\"cmercPrc\":\"15830.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"280866.00\",\"flctnPrc\":\"75.00\",\"invtPrcnt\":\"0.27\",\"invtPrc\":\"756.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261020\",\"flctnPrcnt\":\"0.49\",\"cmercPrc\":\"15350.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"280110.00\",\"flctnPrc\":\"105.00\",\"invtPrcnt\":\"0.04\",\"invtPrc\":\"120.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"0.69\",\"cmercPrc\":\"15275.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"279990.00\",\"flctnPrc\":\"285.00\",\"invtPrcnt\":\"-0.74\",\"invtPrc\":\"-2076.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261016\",\"flctnPrcnt\":\"1.91\",\"cmercPrc\":\"15170.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282066.00\",\"flctnPrc\":\"-590.00\",\"invtPrcnt\":\"-0.21\",\"invtPrc\":\"-588.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261015\",\"flctnPrcnt\":\"-3.81\",\"cmercPrc\":\"14885.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282654.00\",\"flctnPrc\":\"30.00\",\"invtPrcnt\":\"0.05\",\"invtPrc\":\"150.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261014\",\"flctnPrcnt\":\"0.19\",\"cmercPrc\":\"15475.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282504.00\",\"flctnPrc\":\"-70.00\",\"invtPrcnt\":\"0.10\",\"invtPrc\":\"276.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261013\",\"flctnPrcnt\":\"-0.45\",\"cmercPrc\":\"15445.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282228.00\",\"flctnPrc\":\"-30.00\",\"invtPrcnt\":\"-0.22\",\"invtPrc\":\"-636.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"-0.19\",\"cmercPrc\":\"15515.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282864.00\",\"flctnPrc\":\"130.00\",\"invtPrcnt\":\"-0.46\",\"invtPrc\":\"-1314.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261009\",\"flctnPrcnt\":\"0.84\",\"cmercPrc\":\"15545.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"284178.00\",\"flctnPrc\":\"-230.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261008\",\"flctnPrcnt\":\"-1.47\",\"cmercPrc\":\"15415.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"284178.00\",\"flctnPrc\":\"115.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261007\",\"flctnPrcnt\":\"0.74\",\"cmercPrc\":\"15645.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"284178.00\",\"flctnPrc\":\"60.00\",\"invtPrcnt\":\"-0.28\",\"invtPrc\":\"-792.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261006\",\"flctnPrcnt\":\"0.39\",\"cmercPrc\":\"15530.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"284970.00\",\"flctnPrc\":\"35.00\",\"invtPrcnt\":\"-0.07\",\"invtPrc\":\"-198.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261005\",\"flctnPrcnt\":\"0.23\",\"cmercPrc\":\"15470.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"285168.00\",\"flctnPrc\":\"-135.00\",\"in"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/Search/ajax/getSearchedWordList",
+     "post": null,
+     "status": 200,
+     "body_head": "{\"searchedWordList\":[]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMenuUpperCn",
+     "post": "menuCode=013010000",
+     "status": 200,
+     "body_head": "{\"upperCn\":\"본 서비스는 대국민 서비스 목적으로 명시적 또는 묵시적인 어떠한 형태의 보증도 하지 않으므로 법적 책임의 증빙자료로 사용될 수 없음을 알려드립니다.\",\"uprowClas\":\"U\"}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getChartData",
+     "post": "mnrkndUnqRadioCd=MNRL0002&srchMnrkndUnqCd=MNRL0002&srchPrcCrtr=502&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y&HP000=HP001",
+     "status": 200,
+     "body_head": "{\"data\":{\"xaxis\":[\"2024.01.02\",\"2024.01.03\",\"2024.01.04\",\"2024.01.05\",\"2024.01.08\",\"2024.01.09\",\"2024.01.10\",\"2024.01.11\",\"2024.01.12\",\"2024.01.15\",\"2024.01.16\",\"2024.01.17\",\"2024.01.18\",\"2024.01.19\",\"2024.01.22\",\"2024.01.23\",\"2024.01.24\",\"2024.01.25\",\"2024.01.26\",\"2024.01.29\",\"2024.01.30\",\"2024.01.31\",\"2024.02.01\",\"2024.02.02\",\"2024.02.05\",\"2024.02.06\",\"2024.02.07\",\"2024.02.08\",\"2024.02.09\",\"2024.02.12\",\"2024.02.13\",\"2024.02.14\",\"2024.02.15\",\"2024.02.16\",\"2024.02.19\",\"2024.02.20\",\"2024.02.21\",\"2024.02.22\",\"2024.02.23\",\"2024.02.26\",\"2024.02.27\",\"2024.02.28\",\"2024.02.29\",\"2024.03.01\",\"2024.03.04\",\"2024.03.05\",\"2024.03.06\",\"2024.03.07\",\"2024.03.08\",\"2024.03.11\",\"2024.03.12\",\"2024.03.13\",\"2024.03.14\",\"2024.03.15\",\"2024.03.18\",\"2024.03.19\",\"2024.03.20\",\"2024.03.21\",\"2024.03.22\",\"2024.03.25\",\"2024.03.26\",\"2024.03.27\",\"2024.03.28\",\"2024.04.02\",\"2024.04.03\",\"2024.04.04\",\"2024.04.05\",\"2024.04.08\",\"2024.04.09\",\"2024.04.10\",\"2024.04.11\",\"2024.04.12\",\"2024.04.15\",\"2024.04.16\",\"2024.04.17\",\"2024.04.18\",\"2024.04.19\",\"2024.04.22\",\"2024.04.23\",\"2024.04.24\",\"2024.04.25\",\"2024.04.26\",\"2024.04.29\",\"2024.04.30\",\"2024.05.01\",\"2024.05.02\",\"2024.05.03\",\"2024.05.07\",\"2024.05.08\",\"2024.05.09\",\"2024.05.10\",\"2024.05.13\",\"2024.05.14\",\"2024.05.15\",\"2024.05.16\",\"2024.05.17\",\"2024.05.20\",\"2024.05.21\",\"2024.05.22\",\"2024.05.23\",\"2024.05.24\",\"2024.05.28\",\"2024.05.29\",\"2024.05.30\",\"2024.05.31\",\"2024.06.03\",\"2024.06.04\",\"2024.06.05\",\"2024.06.06\",\"2024.06.07\",\"2024.06.10\",\"2024.06.11\",\"2024.06.12\",\"2024.06.13\",\"2024.06.14\",\"2024.06.17\",\"2024.06.18\",\"2024.06.19\",\"2024.06.20\",\"2024.06.21\",\"2024.06.24\",\"2024.06.25\",\"2024.06.26\",\"2024.06.27\",\"2024.06.28\",\"2024.07.01\",\"2024.07.02\",\"2024.07.03\",\"2024.07.04\",\"2024.07.05\",\"2024.07.08\",\"2024.07.09\",\"2024.07.10\",\"2024.07.11\",\"2024.07.12\",\"2024.07.15\",\"2024.07.16\",\"2024.07.17\",\"2024.07.18\",\"2024.07.19\",\"2024.07.22\",\"2024.07.23\",\"2024.07.24\",\"2024.07.25\",\"2024.07.26\",\"2024.07.29\",\"2024.07.30\",\"2024.07.31\",\"2024.08.01\",\"2024.08.02\",\"2024.08.05\",\"2024.08.06\",\"2024.08.07\",\"2024.08.08\",\"2024.08.09\",\"2024.08.12\",\"2024.08.13\",\"2024.08.14\",\"2024.08.15\",\"2024.08.16\",\"2024.08.19\",\"2024.08.20\",\"2024.08.21\",\"2024.08.22\",\"2024.08.23\",\"2024.08.27\",\"2024.08.28\",\"2024.08.29\",\"2024.08.30\",\"2024.09.02\",\"2024.09.03\",\"2024.09.04\",\"2024.09.05\",\"2024.09.06\",\"2024.09.09\",\"2024.09.10\",\"2024.09.11\",\"2024.09.12\",\"2024.09.13\",\"2024.09.16\",\"2024.09.17\",\"2024.09.18\",\"2024.09.19\",\"2024.09.20\",\"2024.09.23\",\"2024.09.24\",\"2024.09.25\",\"2024.09.26\",\"2024.09.27\",\"2024.09.30\",\"2024.10.01\",\"2024.10.02\",\"2024.10.03\",\"2024.10.04\",\"2024.10.07\",\"2024.10.08\",\"2024.10.09\",\"2024.10.10\",\"2024.10.11\",\"2024.10.14\",\"2024.10.15\",\"2024.10.16\",\"2024.10.17\",\"2024.10.18\",\"2024.10.21\",\"2024.10.22\",\"2024.10.23\",\"2024.10.24\",\"2024.10.25\",\"2024.10.28\",\"2024.10.29\",\"2024.10.30\",\"2024.10.31\",\"2024.11.01\",\"2024.11.04\",\"2024.11.05\",\"2024.11.06\",\"2024.11.07\",\"2024.11.08\",\"2024.11.11\",\"2024.11.12\",\"2024.11.13\",\"2024.11.14\",\"2024.11.15\",\"2024.11.18\",\"2024.11.19\",\"2024.11.20\",\"2024.11.21\",\"2024.11.22\",\"2024"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd",
+     "post": "mnrkndUnqRadioCd=MNRL0002&srchMnrkndUnqCd=MNRL0002&srchPrcCrtr=502&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y",
+     "status": 200,
+     "body_head": "{\"dataAvg\":{\"stdMap\":{\"MONTH\":{\"flctnPrc\":\"-478.86\",\"crtrYmd\":\"202610\",\"flctnPrcnt\":\"-2.94\"},\"YEAR\":{\"flctnPrc\":\"670.06\",\"crtrYmd\":\"2026\",\"flctnPrcnt\":\"4.42\"},\"CRTRYMD\":{\"crtrYmd\":\"20261021\",\"cmercPrc\":\"15830.00\"},\"INFO\":{\"mnrkndKornNm\":\"니켈\",\"prcCrtr\":\"LME CASH\",\"isISE\":\"N\",\"weigUnitCd\":\"ton\",\"prcUnitCdNm\":\"USD\"},\"WEEK\":{\"flctnPrc\":\"532.00\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"3.48\"},\"DAY\":{\"flctnPrc\":\"480.00\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"3.13\",\"cmercPrc\":15830}},\"INFO\":{\"mnrkndKornNm\":\"니켈\",\"prcCrtr\":\"LME CASH\",\"isISE\":\"N\",\"weigUnitCd\":\"ton\",\"prcUnitCdNm\":\"USD\"}},\"data\":{\"compareMnrl\":[],\"defaultMnrl\":[{\"lowstPrc\":\"0.00\",\"invt\":\"280866.00\",\"flctnPrc\":\"480.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"3.13\",\"cmercPrc\":\"15830.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"280866.00\",\"flctnPrc\":\"75.00\",\"invtPrcnt\":\"0.27\",\"invtPrc\":\"756.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261020\",\"flctnPrcnt\":\"0.49\",\"cmercPrc\":\"15350.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"280110.00\",\"flctnPrc\":\"105.00\",\"invtPrcnt\":\"0.04\",\"invtPrc\":\"120.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"0.69\",\"cmercPrc\":\"15275.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"279990.00\",\"flctnPrc\":\"285.00\",\"invtPrcnt\":\"-0.74\",\"invtPrc\":\"-2076.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261016\",\"flctnPrcnt\":\"1.91\",\"cmercPrc\":\"15170.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282066.00\",\"flctnPrc\":\"-590.00\",\"invtPrcnt\":\"-0.21\",\"invtPrc\":\"-588.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261015\",\"flctnPrcnt\":\"-3.81\",\"cmercPrc\":\"14885.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282654.00\",\"flctnPrc\":\"30.00\",\"invtPrcnt\":\"0.05\",\"invtPrc\":\"150.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261014\",\"flctnPrcnt\":\"0.19\",\"cmercPrc\":\"15475.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282504.00\",\"flctnPrc\":\"-70.00\",\"invtPrcnt\":\"0.10\",\"invtPrc\":\"276.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261013\",\"flctnPrcnt\":\"-0.45\",\"cmercPrc\":\"15445.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282228.00\",\"flctnPrc\":\"-30.00\",\"invtPrcnt\":\"-0.22\",\"invtPrc\":\"-636.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"-0.19\",\"cmercPrc\":\"15515.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"282864.00\",\"flctnPrc\":\"130.00\",\"invtPrcnt\":\"-0.46\",\"invtPrc\":\"-1314.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261009\",\"flctnPrcnt\":\"0.84\",\"cmercPrc\":\"15545.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"284178.00\",\"flctnPrc\":\"-230.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261008\",\"flctnPrcnt\":\"-1.47\",\"cmercPrc\":\"15415.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"284178.00\",\"flctnPrc\":\"115.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261007\",\"flctnPrcnt\":\"0.74\",\"cmercPrc\":\"15645.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"284178.00\",\"flctnPrc\":\"60.00\",\"invtPrcnt\":\"-0.28\",\"invtPrc\":\"-792.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261006\",\"flctnPrcnt\":\"0.39\",\"cmercPrc\":\"15530.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"284970.00\",\"flctnPrc\":\"35.00\",\"invtPrcnt\":\"-0.07\",\"invtPrc\":\"-198.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261005\",\"flctnPrcnt\":\"0.23\",\"cmercPrc\":\"15470.00\"},{\"lowstPrc\":\"0.00\",\"invt\":\"285168.00\",\"flctnPrc\":\"-135.00\",\"in"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getChartData",
+     "post": "mnrkndUnqRadioCd=MNRL0002&srchMnrkndUnqCd=MNRL0002&srchPrcCrtr=502&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y&HP000=HP001",
+     "status": 200,
+     "body_head": "{\"data\":{\"xaxis\":[\"2024.01.02\",\"2024.01.03\",\"2024.01.04\",\"2024.01.05\",\"2024.01.08\",\"2024.01.09\",\"2024.01.10\",\"2024.01.11\",\"2024.01.12\",\"2024.01.15\",\"2024.01.16\",\"2024.01.17\",\"2024.01.18\",\"2024.01.19\",\"2024.01.22\",\"2024.01.23\",\"2024.01.24\",\"2024.01.25\",\"2024.01.26\",\"2024.01.29\",\"2024.01.30\",\"2024.01.31\",\"2024.02.01\",\"2024.02.02\",\"2024.02.05\",\"2024.02.06\",\"2024.02.07\",\"2024.02.08\",\"2024.02.09\",\"2024.02.12\",\"2024.02.13\",\"2024.02.14\",\"2024.02.15\",\"2024.02.16\",\"2024.02.19\",\"2024.02.20\",\"2024.02.21\",\"2024.02.22\",\"2024.02.23\",\"2024.02.26\",\"2024.02.27\",\"2024.02.28\",\"2024.02.29\",\"2024.03.01\",\"2024.03.04\",\"2024.03.05\",\"2024.03.06\",\"2024.03.07\",\"2024.03.08\",\"2024.03.11\",\"2024.03.12\",\"2024.03.13\",\"2024.03.14\",\"2024.03.15\",\"2024.03.18\",\"2024.03.19\",\"2024.03.20\",\"2024.03.21\",\"2024.03.22\",\"2024.03.25\",\"2024.03.26\",\"2024.03.27\",\"2024.03.28\",\"2024.04.02\",\"2024.04.03\",\"2024.04.04\",\"2024.04.05\",\"2024.04.08\",\"2024.04.09\",\"2024.04.10\",\"2024.04.11\",\"2024.04.12\",\"2024.04.15\",\"2024.04.16\",\"2024.04.17\",\"2024.04.18\",\"2024.04.19\",\"2024.04.22\",\"2024.04.23\",\"2024.04.24\",\"2024.04.25\",\"2024.04.26\",\"2024.04.29\",\"2024.04.30\",\"2024.05.01\",\"2024.05.02\",\"2024.05.03\",\"2024.05.07\",\"2024.05.08\",\"2024.05.09\",\"2024.05.10\",\"2024.05.13\",\"2024.05.14\",\"2024.05.15\",\"2024.05.16\",\"2024.05.17\",\"2024.05.20\",\"2024.05.21\",\"2024.05.22\",\"2024.05.23\",\"2024.05.24\",\"2024.05.28\",\"2024.05.29\",\"2024.05.30\",\"2024.05.31\",\"2024.06.03\",\"2024.06.04\",\"2024.06.05\",\"2024.06.06\",\"2024.06.07\",\"2024.06.10\",\"2024.06.11\",\"2024.06.12\",\"2024.06.13\",\"2024.06.14\",\"2024.06.17\",\"2024.06.18\",\"2024.06.19\",\"2024.06.20\",\"2024.06.21\",\"2024.06.24\",\"2024.06.25\",\"2024.06.26\",\"2024.06.27\",\"2024.06.28\",\"2024.07.01\",\"2024.07.02\",\"2024.07.03\",\"2024.07.04\",\"2024.07.05\",\"2024.07.08\",\"2024.07.09\",\"2024.07.10\",\"2024.07.11\",\"2024.07.12\",\"2024.07.15\",\"2024.07.16\",\"2024.07.17\",\"2024.07.18\",\"2024.07.19\",\"2024.07.22\",\"2024.07.23\",\"2024.07.24\",\"2024.07.25\",\"2024.07.26\",\"2024.07.29\",\"2024.07.30\",\"2024.07.31\",\"2024.08.01\",\"2024.08.02\",\"2024.08.05\",\"2024.08.06\",\"2024.08.07\",\"2024.08.08\",\"2024.08.09\",\"2024.08.12\",\"2024.08.13\",\"2024.08.14\",\"2024.08.15\",\"2024.08.16\",\"2024.08.19\",\"2024.08.20\",\"2024.08.21\",\"2024.08.22\",\"2024.08.23\",\"2024.08.27\",\"2024.08.28\",\"2024.08.29\",\"2024.08.30\",\"2024.09.02\",\"2024.09.03\",\"2024.09.04\",\"2024.09.05\",\"2024.09.06\",\"2024.09.09\",\"2024.09.10\",\"2024.09.11\",\"2024.09.12\",\"2024.09.13\",\"2024.09.16\",\"2024.09.17\",\"2024.09.18\",\"2024.09.19\",\"2024.09.20\",\"2024.09.23\",\"2024.09.24\",\"2024.09.25\",\"2024.09.26\",\"2024.09.27\",\"2024.09.30\",\"2024.10.01\",\"2024.10.02\",\"2024.10.03\",\"2024.10.04\",\"2024.10.07\",\"2024.10.08\",\"2024.10.09\",\"2024.10.10\",\"2024.10.11\",\"2024.10.14\",\"2024.10.15\",\"2024.10.16\",\"2024.10.17\",\"2024.10.18\",\"2024.10.21\",\"2024.10.22\",\"2024.10.23\",\"2024.10.24\",\"2024.10.25\",\"2024.10.28\",\"2024.10.29\",\"2024.10.30\",\"2024.10.31\",\"2024.11.01\",\"2024.11.04\",\"2024.11.05\",\"2024.11.06\",\"2024.11.07\",\"2024.11.08\",\"2024.11.11\",\"2024.11.12\",\"2024.11.13\",\"2024.11.14\",\"2024.11.15\",\"2024.11.18\",\"2024.11.19\",\"2024.11.20\",\"2024.11.21\",\"2024.11.22\",\"2024"
+    }
+   ],
+   "tables": [
+    [
+     [
+      "기준일",
+      "가격",
+      "전일대비",
+      "전주평균대비",
+      "전월평균대비",
+      "전년평균대비"
+     ],
+     [
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)"
+     ],
+     [
+      "2026-10-21",
+      "15,830.00",
+      "상승 :480.00",
+      "상승 :3.13",
+      "상승 :532.00",
+      "상승 :3.48",
+      "하락 :478.86",
+      "하락 :2.94",
+      "상승 :670.06",
+      "상승 :4.42"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "기준가격",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "2026-10-21",
+      "15,830.00",
+      "상승 :480.00",
+      "상승 :3.13"
+     ],
+     [
+      "2026-10-20",
+      "15,350.00",
+      "상승 :75.00",
+      "상승 :0.49"
+     ],
+     [
+      "2026-10-19",
+      "15,275.00",
+      "상승 :105.00",
+      "상승 :0.69"
+     ],
+     [
+      "2026-10-16",
+      "15,170.00",
+      "상승 :285.00",
+      "상승 :1.91"
+     ],
+     [
+      "2026-10-15",
+      "14,885.00",
+      "하락 :590.00",
+      "하락 :3.81"
+     ],
+     [
+      "2026-10-14",
+      "15,475.00",
+      "상승 :30.00",
+      "상승 :0.19"
+     ],
+     [
+      "2026-10-13",
+      "15,445.00",
+      "하락 :70.00",
+      "하락 :0.45"
+     ],
+     [
+      "2026-10-12",
+      "15,515.00",
+      "하락 :30.00",
+      "하락 :0.19"
+     ],
+     [
+      "2026-10-09",
+      "15,545.00",
+      "상승 :130.00",
+      "상승 :0.84"
+     ],
+     [
+      "2026-10-08",
+      "15,415.00",
+      "하락 :230.00",
+      "하락 :1.47"
+     ],
+     [
+      "2026-10-07",
+      "15,645.00",
+      "상승 :115.00",
+      "상승 :0.74"
+     ],
+     [
+      "2026-10-06",
+      "15,530.00",
+      "상승 :60.00",
+      "상승 :0.39"
+     ],
+     [
+      "2026-10-05",
+      "15,470.00",
+      "상승 :35.00",
+      "상승 :0.23"
+     ],
+     [
+      "2026-10-02",
+      "15,435.00",
+      "하락 :135.00",
+      "하락 :0.87"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "가격",
+      "전일대비",
+      "전주평균대비",
+      "전월평균대비",
+      "전년평균대비"
+     ],
+     [
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "기준가격",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "데이터가 없습니다."
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "재고량",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "2026-10-21",
+      "280,866.00",
+      "변동없음 :0.00",
+      "변동없음 :0.00"
+     ],
+     [
+      "2026-10-20",
+      "280,866.00",
+      "상승 :756.00",
+      "상승 :0.27"
+     ],
+     [
+      "2026-10-19",
+      "280,110.00",
+      "상승 :120.00",
+      "상승 :0.04"
+     ],
+     [
+      "2026-10-16",
+      "279,990.00",
+      "하락 :2,076.00",
+      "하락 :0.74"
+     ],
+     [
+      "2026-10-15",
+      "282,066.00",
+      "하락 :588.00",
+      "하락 :0.21"
+     ],
+     [
+      "2026-10-14",
+      "282,654.00",
+      "상승 :150.00",
+      "상승 :0.05"
+     ],
+     [
+      "2026-10-13",
+      "282,504.00",
+      "상승 :276.00",
+      "상승 :0.10"
+     ],
+     [
+      "2026-10-12",
+      "282,228.00",
+      "하락 :636.00",
+      "하락 :0.22"
+     ],
+     [
+      "2026-10-09",
+      "282,864.00",
+      "하락 :1,314.00",
+      "하락 :0.46"
+     ],
+     [
+      "2026-10-08",
+      "284,178.00",
+      "변동없음 :0.00",
+      "변동없음 :0.00"
+     ],
+     [
+      "2026-10-07",
+      "284,178.00",
+      "변동없음 :0.00",
+      "변동없음 :0.00"
+     ],
+     [
+      "2026-10-06",
+      "284,178.00",
+      "하락 :792.00",
+      "하락 :0.28"
+     ],
+     [
+      "2026-10-05",
+      "284,970.00",
+      "하락 :198.00",
+      "하락 :0.07"
+     ],
+     [
+      "2026-10-02",
+      "285,168.00",
+      "상승 :486.00",
+      "상승 :0.17"
+     ]
+    ]
+   ],
+   "selects": {
+    "srchMnrkndUnqCd": [
+     [
+      "MNRL0002",
+      "니켈"
+     ],
+     [
+      "MNRL0008",
+      "동"
+     ],
+     [
+      "MNRL0023",
+      "아연"
+     ],
+     [
+      "MNRL0009",
+      "알루미늄"
+     ],
+     [
+      "MNRL0022",
+      "연"
+     ],
+     [
+      "MNRL0016",
+      "주석"
+     ]
+    ],
+    "srchPrcCrtr": [
+     [
+      "502",
+      "LME CASH"
+     ],
+     [
+      "497",
+      "LME 3개월"
+     ]
+    ],
+    "spcfct": [],
+    "srchAvgOpt": [
+     [
+      "DAY",
+      "일간"
+     ],
+     [
+      "WEEK",
+      "주간"
+     ],
+     [
+      "MONTH",
+      "월간"
+     ],
+     [
+      "QUARTER",
+      "분기"
+     ],
+     [
+      "YEAR",
+      "년간"
+     ]
+    ],
+    "srchStartDate": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ]
+    ],
+    "srchEndDate": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ]
+    ],
+    "srchCompareMnrkndUnqCd": [
+     [
+      "",
+      "[선택]"
+     ],
+     [
+      "MNRL0002",
+      "니켈"
+     ],
+     [
+      "MNRL0008",
+      "동"
+     ],
+     [
+      "MNRL0023",
+      "아연"
+     ],
+     [
+      "MNRL0009",
+      "알루미늄"
+     ],
+     [
+      "MNRL0022",
+      "연"
+     ],
+     [
+      "MNRL0016",
+      "주석"
+     ]
+    ],
+    "srchComparePrcCrtr": [
+     [
+      "[선택]",
+      "[선택]"
+     ]
+    ]
+   },
+   "error": null
+  },
+  {
+   "url": "https://www.komis.or.kr/Komis/RsrcPrice/MinorMetals",
+   "xhr": [
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/ajax/common/getFrontMenu",
+     "post": null,
+     "status": 200,
+     "body_head": "{\"data\":[{\"menuNm2\":\"일일자원뉴스\",\"menuCd\":\"010016000\",\"menuSrt\":\"110\",\"menuPath\":\"/Komis/Board/DAYNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"주간자원뉴스\",\"menuCd\":\"010017000\",\"menuSrt\":\"120\",\"menuPath\":\"/Komis/Board/WEEKNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"전략광종 월간동향\",\"menuCd\":\"010018000\",\"menuSrt\":\"130\",\"menuPath\":\"/Komis/Board/STRGMONTH\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"희소금속 월간동향\",\"menuCd\":\"010019000\",\"menuSrt\":\"140\",\"menuPath\":\"/Komis/Board/RAREMONTH\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"해외네트워크뉴스\",\"menuCd\":\"010021000\",\"menuSrt\":\"150\",\"menuPath\":\"/Komis/Board/FRNNETNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"비철금속\",\"menuCd\":\"013010000\",\"menuSrt\":\"210\",\"menuPath\":\"/Komis/RsrcPrice/BaseMetals\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"희소금속\",\"menuCd\":\"013011000\",\"menuSrt\":\"220\",\"menuPath\":\"/Komis/RsrcPrice/MinorMetals\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"철광석 및 에너지\",\"menuCd\":\"013012000\",\"menuSrt\":\"230\",\"menuPath\":\"/Komis/RsrcPrice/IronOre\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"기타\",\"menuCd\":\"013013000\",\"menuSrt\":\"240\",\"menuPath\":\"/Komis/RsrcPrice/EtcMnrl\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"국내원자재가격(조달청)\",\"menuCd\":\"013014000\",\"menuSrt\":\"250\",\"menuPath\":\"pps.go.kr/bichuk/bbs/list.do?key=00825\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"L\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"광물종합지수\",\"menuCd\":\"014010000\",\"menuSrt\":\"310\",\"menuPath\":\"/Komis/MnrlIndc/IndxMin\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"시장동향지표\",\"menuCd\":\"014011000\",\"menuSrt\":\"320\",\"menuPath\":\"/Komis/MnrlIndc/IndcMrkt\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"수급동향지표\",\"menuCd\":\"014012000\",\"menuSrt\":\"330\",\"menuPath\":\"/Komis/MnrlIndc/IndxSply\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"가격예측\",\"menuNm2\":\"광물가격예측\",\"menuCd\":\"014014010\",\"menuSrt\":\"341\",\"menuPath\":\"/Komis/MnrlIndc/PricePred\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"자원정보 FOCUS\",\"menuNm2\":\"광물가격예측\",\"menuCd\":\"014014011\",\"menuSrt\":\"342\",\"menuPath\":\"/Komis/Board/RESORCFOCUS\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"광종정보\",\"menuCd\":\"011010000\",\"menuSrt\":\"410\",\"menuPath\":\"/Komis/MnrlInfo/MnrlInfo\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"국가정보\",\"menuCd\":\"011011000\",\"menuSrt\":\"420\",\"menuPath\":\"/Komis/MnrlInfo/NationInfo\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"법령정보\",\"menuCd\":\"011012000\",\"menuSrt\":\"430\",\"menuPath\":\"/Komis/Board/LAWINFO\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"투자실무가이드\",\"menuCd\":\"011016000\",\"menuSrt\":\"470\",\"menuPath\":\"web.e-factory.co.kr/KOMIR/202610/index.html\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"L\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"대한민국\",\"menuNm2\":\""
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMnrlKndInfoCodeList",
+     "post": "cdType=HP000&cdGrp=HP002",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"가돌리늄\",\"cdEngVal\":\"Gadolinium\",\"cdKey\":\"MNRL1064\"},{\"cdVal\":\"갈륨\",\"cdEngVal\":\"Gallium\",\"cdKey\":\"MNRL0024\"},{\"cdVal\":\"게르마늄\",\"cdEngVal\":\"Germanium\",\"cdKey\":\"MNRL0035\"},{\"cdVal\":\"규소\",\"cdEngVal\":\"Silicon\",\"cdKey\":\"MNRL0010\"},{\"cdVal\":\"네오디뮴\",\"cdEngVal\":\"Neodymium\",\"cdKey\":\"MNRL1001\"},{\"cdVal\":\"니오븀\",\"cdEngVal\":\"Niobium\",\"cdKey\":\"MNRL0007\"},{\"cdVal\":\"디스프로슘\",\"cdEngVal\":\"Dysprosium\",\"cdKey\":\"MNRL1004\"},{\"cdVal\":\"란탄\",\"cdEngVal\":\"Lanthanum\",\"cdKey\":\"MNRL1003\"},{\"cdVal\":\"루테튬\",\"cdEngVal\":\"Lutetium\",\"cdKey\":\"MNRL1055\"},{\"cdVal\":\"리튬\",\"cdEngVal\":\"Lithium\",\"cdKey\":\"MNRL0001\"},{\"cdVal\":\"마그네슘\",\"cdEngVal\":\"Magnesium\",\"cdKey\":\"MNRL0011\"},{\"cdVal\":\"망간\",\"cdEngVal\":\"Manganese\",\"cdKey\":\"MNRL0004\"},{\"cdVal\":\"몰리브덴\",\"cdEngVal\":\"Molybdenum\",\"cdKey\":\"MNRL0012\"},{\"cdVal\":\"바나듐\",\"cdEngVal\":\"Vanadium\",\"cdKey\":\"MNRL0013\"},{\"cdVal\":\"사마륨\",\"cdEngVal\":\"Samarium\",\"cdKey\":\"MNRL1062\"},{\"cdVal\":\"세륨\",\"cdEngVal\":\"Cerium\",\"cdKey\":\"MNRL1002\"},{\"cdVal\":\"셀레늄\",\"cdEngVal\":\"Selenium\",\"cdKey\":\"MNRL0029\"},{\"cdVal\":\"스칸듐\",\"cdEngVal\":\"Scandium\",\"cdKey\":\"MNRL1053\"},{\"cdVal\":\"스트론튬\",\"cdEngVal\":\"Strontium\",\"cdKey\":\"MNRL0028\"},{\"cdVal\":\"안티모니\",\"cdEngVal\":\"Antimony\",\"cdKey\":\"MNRL0019\"},{\"cdVal\":\"에르븀\",\"cdEngVal\":\"Erbium\",\"cdKey\":\"MNRL1067\"},{\"cdVal\":\"유로퓸\",\"cdEngVal\":\"Europium\",\"cdKey\":\"MNRL1063\"},{\"cdVal\":\"이트륨\",\"cdEngVal\":\"Yttrium\",\"cdKey\":\"MNRL1054\"},{\"cdVal\":\"인듐\",\"cdEngVal\":\"Indium\",\"cdKey\":\"MNRL0025\"},{\"cdVal\":\"지르코늄\",\"cdEngVal\":\"Zirconium\",\"cdKey\":\"MNRL0027\"},{\"cdVal\":\"창연\",\"cdEngVal\":\"Bismuth\",\"cdKey\":\"MNRL0020\"},{\"cdVal\":\"코발트\",\"cdEngVal\":\"Cobalt\",\"cdKey\":\"MNRL0003\"},{\"cdVal\":\"크롬\",\"cdEngVal\":\"Chromium\",\"cdKey\":\"MNRL0021\"},{\"cdVal\":\"탄탈륨\",\"cdEngVal\":\"Tantalum\",\"cdKey\":\"MNRL0026\"},{\"cdVal\":\"터븀\",\"cdEngVal\":\"Terbium\",\"cdKey\":\"MNRL1005\"},{\"cdVal\":\"텅스텐\",\"cdEngVal\":\"Tungsten\",\"cdKey\":\"MNRL0018\"},{\"cdVal\":\"티타늄\",\"cdEngVal\":\"Titanium\",\"cdKey\":\"MNRL0017\"},{\"cdVal\":\"프라세오디뮴\",\"cdEngVal\":\"Praseodymium\",\"cdKey\":\"MNRL1056\"},{\"cdVal\":\"홀뮴\",\"cdEngVal\":\"Holmium\",\"cdKey\":\"MNRL1068\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getCodeList",
+     "post": "cdGrp=PR000",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"USD\",\"cdSrt\":1,\"cdKey\":\"PR001\"},{\"cdVal\":\"천불\",\"cdSrt\":2,\"cdKey\":\"PR002\"},{\"cdVal\":\"백만불\",\"cdSrt\":3,\"cdKey\":\"PR003\"},{\"cdVal\":\"억불\",\"cdSrt\":4,\"cdKey\":\"PR004\"},{\"cdVal\":\"RMB\",\"cdSrt\":5,\"cdKey\":\"PR005\"},{\"cdVal\":\"Yn\",\"cdSrt\":7,\"cdKey\":\"PR007\"},{\"cdVal\":\"US￠\",\"cdSrt\":8,\"cdKey\":\"PR008\"},{\"cdVal\":\"CNY\",\"cdSrt\":9,\"cdKey\":\"PR009\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMnrlKndInfoCodeList",
+     "post": "cdType=HP000&cdGrp=HP002",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"가돌리늄\",\"cdEngVal\":\"Gadolinium\",\"cdKey\":\"MNRL1064\"},{\"cdVal\":\"갈륨\",\"cdEngVal\":\"Gallium\",\"cdKey\":\"MNRL0024\"},{\"cdVal\":\"게르마늄\",\"cdEngVal\":\"Germanium\",\"cdKey\":\"MNRL0035\"},{\"cdVal\":\"규소\",\"cdEngVal\":\"Silicon\",\"cdKey\":\"MNRL0010\"},{\"cdVal\":\"네오디뮴\",\"cdEngVal\":\"Neodymium\",\"cdKey\":\"MNRL1001\"},{\"cdVal\":\"니오븀\",\"cdEngVal\":\"Niobium\",\"cdKey\":\"MNRL0007\"},{\"cdVal\":\"디스프로슘\",\"cdEngVal\":\"Dysprosium\",\"cdKey\":\"MNRL1004\"},{\"cdVal\":\"란탄\",\"cdEngVal\":\"Lanthanum\",\"cdKey\":\"MNRL1003\"},{\"cdVal\":\"루테튬\",\"cdEngVal\":\"Lutetium\",\"cdKey\":\"MNRL1055\"},{\"cdVal\":\"리튬\",\"cdEngVal\":\"Lithium\",\"cdKey\":\"MNRL0001\"},{\"cdVal\":\"마그네슘\",\"cdEngVal\":\"Magnesium\",\"cdKey\":\"MNRL0011\"},{\"cdVal\":\"망간\",\"cdEngVal\":\"Manganese\",\"cdKey\":\"MNRL0004\"},{\"cdVal\":\"몰리브덴\",\"cdEngVal\":\"Molybdenum\",\"cdKey\":\"MNRL0012\"},{\"cdVal\":\"바나듐\",\"cdEngVal\":\"Vanadium\",\"cdKey\":\"MNRL0013\"},{\"cdVal\":\"사마륨\",\"cdEngVal\":\"Samarium\",\"cdKey\":\"MNRL1062\"},{\"cdVal\":\"세륨\",\"cdEngVal\":\"Cerium\",\"cdKey\":\"MNRL1002\"},{\"cdVal\":\"셀레늄\",\"cdEngVal\":\"Selenium\",\"cdKey\":\"MNRL0029\"},{\"cdVal\":\"스칸듐\",\"cdEngVal\":\"Scandium\",\"cdKey\":\"MNRL1053\"},{\"cdVal\":\"스트론튬\",\"cdEngVal\":\"Strontium\",\"cdKey\":\"MNRL0028\"},{\"cdVal\":\"안티모니\",\"cdEngVal\":\"Antimony\",\"cdKey\":\"MNRL0019\"},{\"cdVal\":\"에르븀\",\"cdEngVal\":\"Erbium\",\"cdKey\":\"MNRL1067\"},{\"cdVal\":\"유로퓸\",\"cdEngVal\":\"Europium\",\"cdKey\":\"MNRL1063\"},{\"cdVal\":\"이트륨\",\"cdEngVal\":\"Yttrium\",\"cdKey\":\"MNRL1054\"},{\"cdVal\":\"인듐\",\"cdEngVal\":\"Indium\",\"cdKey\":\"MNRL0025\"},{\"cdVal\":\"지르코늄\",\"cdEngVal\":\"Zirconium\",\"cdKey\":\"MNRL0027\"},{\"cdVal\":\"창연\",\"cdEngVal\":\"Bismuth\",\"cdKey\":\"MNRL0020\"},{\"cdVal\":\"코발트\",\"cdEngVal\":\"Cobalt\",\"cdKey\":\"MNRL0003\"},{\"cdVal\":\"크롬\",\"cdEngVal\":\"Chromium\",\"cdKey\":\"MNRL0021\"},{\"cdVal\":\"탄탈륨\",\"cdEngVal\":\"Tantalum\",\"cdKey\":\"MNRL0026\"},{\"cdVal\":\"터븀\",\"cdEngVal\":\"Terbium\",\"cdKey\":\"MNRL1005\"},{\"cdVal\":\"텅스텐\",\"cdEngVal\":\"Tungsten\",\"cdKey\":\"MNRL0018\"},{\"cdVal\":\"티타늄\",\"cdEngVal\":\"Titanium\",\"cdKey\":\"MNRL0017\"},{\"cdVal\":\"프라세오디뮴\",\"cdEngVal\":\"Praseodymium\",\"cdKey\":\"MNRL1056\"},{\"cdVal\":\"홀뮴\",\"cdEngVal\":\"Holmium\",\"cdKey\":\"MNRL1068\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPriceCrtr",
+     "post": "HP000=HP002&mnrkndUnqCd=MNRL1064",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"Gadolinium Oxide\",\"spcfct\":\"99.5\",\"cdKey\":809}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd",
+     "post": "mnrkndUnqRadioCd=MNRL1064&srchMnrkndUnqCd=MNRL1064&srchPrcCrtr=809&spcfct=99.5&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y",
+     "status": 200,
+     "body_head": "{\"dataAvg\":{\"stdMap\":{\"MONTH\":{\"flctnPrc\":\"-1.35\",\"crtrYmd\":\"202610\",\"flctnPrcnt\":\"-4.69\"},\"YEAR\":{\"flctnPrc\":\"4.78\",\"crtrYmd\":\"2026\",\"flctnPrcnt\":\"21.08\"},\"CRTRYMD\":{\"crtrYmd\":\"20261021\",\"cmercPrc\":\"27.46\"},\"INFO\":{\"mnrkndKornNm\":\"가돌리늄\",\"prcCrtr\":\"99.5%min EXW China\",\"isISE\":\"Y\",\"weigUnitCd\":\"kg\",\"prcUnitCdNm\":\"USD\"},\"WEEK\":{\"flctnPrc\":\"-1.19\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"-4.15\"},\"DAY\":{\"flctnPrc\":\"-0.29\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"-1.05\",\"cmercPrc\":27.46}},\"INFO\":{\"mnrkndKornNm\":\"가돌리늄\",\"prcCrtr\":\"99.5%min EXW China\",\"isISE\":\"Y\",\"weigUnitCd\":\"kg\",\"prcUnitCdNm\":\"USD\"}},\"data\":{\"compareMnrl\":[],\"defaultMnrl\":[{\"lowstPrc\":\"27.23\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.29\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"27.68\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"-1.05\",\"cmercPrc\":\"27.46\"},{\"lowstPrc\":\"27.53\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"27.98\",\"crtrYmd\":\"20261020\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"27.75\"},{\"lowstPrc\":\"27.53\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.44\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"27.97\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"-1.56\",\"cmercPrc\":\"27.75\"},{\"lowstPrc\":\"27.97\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.58\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.41\",\"crtrYmd\":\"20261016\",\"flctnPrcnt\":\"-2.02\",\"cmercPrc\":\"28.19\"},{\"lowstPrc\":\"28.55\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.99\",\"crtrYmd\":\"20261015\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"28.77\"},{\"lowstPrc\":\"28.55\",\"invt\":\"0.00\",\"flctnPrc\":\"0.02\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"29.00\",\"crtrYmd\":\"20261014\",\"flctnPrcnt\":\"0.07\",\"cmercPrc\":\"28.77\"},{\"lowstPrc\":\"28.53\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.98\",\"crtrYmd\":\"20261013\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"28.75\"},{\"lowstPrc\":\"28.52\",\"invt\":\"0.00\",\"flctnPrc\":\"0.01\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.97\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"0.03\",\"cmercPrc\":\"28.75\"},{\"lowstPrc\":\"28.52\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.96\",\"crtrYmd\":\"20261010\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"28.74\"},{\"lowstPrc\":\"28.52\",\"invt\":\"0.00\",\"flctnPrc\":\"0.02\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.96\",\"crtrYmd\":\"20261009\",\"flctnPrcnt\":\"0.07\",\"cmercPrc\":\"28.74\"},{\"lowstPrc\":\"28.50\",\"invt\":\"0.00\",\"flctnPrc\":\"0.05\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.95\",\"crtrYmd\":\"20261008\",\"flctnPrcnt\":\"0.17\",\"cmercPrc\":\"28.72\"},{\"lowstPrc\":\"28.45\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.01\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.89\",\"crtrYmd\":\"20260924\",\"flctnPrcnt\":\"-0.03\",\"cmercPrc\":\"28.67\"},{\"lowstPrc\":\"28.46\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.90\",\"crtrYmd\":\"20260923\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"28.68\"},{\"lowstPrc\":\"28.46\",\"invt\":\"0.00\",\"flctnPrc\":\"0.01\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.91\",\"crtrYmd\":\"20260922\",\"flctnPrcnt\":\"0.03\",\"cmercPrc\":\"28.68\"},{\"lowstPrc"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/Search/ajax/getSearchedWordList",
+     "post": null,
+     "status": 200,
+     "body_head": "{\"searchedWordList\":[]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMenuUpperCn",
+     "post": "menuCode=013011000",
+     "status": 200,
+     "body_head": "{\"upperCn\":\"본 서비스는 대국민 서비스 목적으로 명시적 또는 묵시적인 어떠한 형태의 보증도 하지 않으므로 법적 책임의 증빙자료로 사용될 수 없음을 알려드립니다.\",\"uprowClas\":\"U\"}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getChartData",
+     "post": "mnrkndUnqRadioCd=MNRL1064&srchMnrkndUnqCd=MNRL1064&srchPrcCrtr=809&spcfct=99.5&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y&HP000=HP002",
+     "status": 200,
+     "body_head": "{\"data\":{\"xaxis\":[\"2024.01.02\",\"2024.01.03\",\"2024.01.04\",\"2024.01.05\",\"2024.01.08\",\"2024.01.09\",\"2024.01.10\",\"2024.01.11\",\"2024.01.12\",\"2024.01.15\",\"2024.01.16\",\"2024.01.17\",\"2024.01.18\",\"2024.01.19\",\"2024.01.22\",\"2024.01.23\",\"2024.01.24\",\"2024.01.25\",\"2024.01.26\",\"2024.01.29\",\"2024.01.30\",\"2024.01.31\",\"2024.02.01\",\"2024.02.02\",\"2024.02.04\",\"2024.02.05\",\"2024.02.06\",\"2024.02.07\",\"2024.02.19\",\"2024.02.20\",\"2024.02.21\",\"2024.02.22\",\"2024.02.23\",\"2024.02.26\",\"2024.02.27\",\"2024.02.28\",\"2024.02.29\",\"2024.03.01\",\"2024.03.04\",\"2024.03.05\",\"2024.03.06\",\"2024.03.07\",\"2024.03.08\",\"2024.03.11\",\"2024.03.12\",\"2024.03.13\",\"2024.03.14\",\"2024.03.15\",\"2024.03.18\",\"2024.03.19\",\"2024.03.20\",\"2024.03.21\",\"2024.03.22\",\"2024.03.25\",\"2024.03.26\",\"2024.03.27\",\"2024.03.28\",\"2024.03.29\",\"2024.04.01\",\"2024.04.02\",\"2024.04.03\",\"2024.04.07\",\"2024.04.08\",\"2024.04.09\",\"2024.04.10\",\"2024.04.11\",\"2024.04.12\",\"2024.04.15\",\"2024.04.16\",\"2024.04.17\",\"2024.04.18\",\"2024.04.19\",\"2024.04.30\",\"2024.05.06\",\"2024.05.07\",\"2024.05.08\",\"2024.05.09\",\"2024.05.10\",\"2024.05.11\",\"2024.05.13\",\"2024.05.14\",\"2024.05.15\",\"2024.05.16\",\"2024.05.17\",\"2024.05.20\",\"2024.05.21\",\"2024.05.22\",\"2024.05.23\",\"2024.05.24\",\"2024.05.27\",\"2024.05.28\",\"2024.05.29\",\"2024.06.05\",\"2024.06.06\",\"2024.06.07\",\"2024.06.11\",\"2024.06.12\",\"2024.06.13\",\"2024.06.14\",\"2024.06.25\",\"2024.06.26\",\"2024.06.27\",\"2024.06.28\",\"2024.07.01\",\"2024.07.02\",\"2024.07.03\",\"2024.07.04\",\"2024.07.05\",\"2024.07.08\",\"2024.07.09\",\"2024.07.10\",\"2024.07.11\",\"2024.07.12\",\"2024.07.15\",\"2024.07.16\",\"2024.07.17\",\"2024.07.18\",\"2024.07.19\",\"2024.07.22\",\"2024.07.23\",\"2024.07.24\",\"2024.07.25\",\"2024.07.26\",\"2024.07.29\",\"2024.07.30\",\"2024.07.31\",\"2024.08.01\",\"2024.08.02\",\"2024.08.05\",\"2024.08.06\",\"2024.08.09\",\"2024.08.12\",\"2024.08.13\",\"2024.08.14\",\"2024.08.15\",\"2024.08.16\",\"2024.08.19\",\"2024.08.20\",\"2024.08.21\",\"2024.08.22\",\"2024.08.23\",\"2024.08.26\",\"2024.08.28\",\"2024.08.29\",\"2024.08.30\",\"2024.09.02\",\"2024.09.03\",\"2024.09.04\",\"2024.09.05\",\"2024.09.06\",\"2024.09.09\",\"2024.09.10\",\"2024.09.11\",\"2024.09.12\",\"2024.09.13\",\"2024.09.14\",\"2024.09.18\",\"2024.09.19\",\"2024.09.20\",\"2024.09.23\",\"2024.09.24\",\"2024.09.27\",\"2024.10.08\",\"2024.10.09\",\"2024.10.10\",\"2024.10.11\",\"2024.10.12\",\"2024.10.14\",\"2024.10.15\",\"2024.10.16\",\"2024.10.17\",\"2024.10.18\",\"2024.10.21\",\"2024.10.23\",\"2024.10.24\",\"2024.10.25\",\"2024.10.29\",\"2024.10.30\",\"2024.10.31\",\"2024.11.01\",\"2024.11.04\",\"2024.11.05\",\"2024.11.06\",\"2024.11.07\",\"2024.11.08\",\"2024.11.11\",\"2024.11.12\",\"2024.11.13\",\"2024.11.14\",\"2024.11.15\",\"2024.11.18\",\"2024.11.19\",\"2024.11.20\",\"2024.11.21\",\"2024.11.22\",\"2024.11.25\",\"2024.11.26\",\"2024.11.27\",\"2024.11.28\",\"2024.11.29\",\"2024.12.02\",\"2024.12.04\",\"2024.12.05\",\"2024.12.06\",\"2024.12.09\",\"2024.12.10\",\"2024.12.11\",\"2024.12.12\",\"2024.12.13\",\"2024.12.16\",\"2024.12.17\",\"2024.12.18\",\"2024.12.19\",\"2024.12.20\",\"2024.12.23\",\"2024.12.24\",\"2024.12.25\",\"2024.12.26\",\"2024.12.27\",\"2024.12.30\",\"2024.12.31\",\"2025.01.02\",\"2025.01.03\",\"2025.01.06\",\"2025.01.07\",\"2025.01.08\",\"2025.01.09\",\"2025.01.10\",\"2025.01.13\",\"2025"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd",
+     "post": "mnrkndUnqRadioCd=MNRL1064&srchMnrkndUnqCd=MNRL1064&srchPrcCrtr=809&spcfct=99.5&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y",
+     "status": 200,
+     "body_head": "{\"dataAvg\":{\"stdMap\":{\"MONTH\":{\"flctnPrc\":\"-1.35\",\"crtrYmd\":\"202610\",\"flctnPrcnt\":\"-4.69\"},\"YEAR\":{\"flctnPrc\":\"4.78\",\"crtrYmd\":\"2026\",\"flctnPrcnt\":\"21.08\"},\"CRTRYMD\":{\"crtrYmd\":\"20261021\",\"cmercPrc\":\"27.46\"},\"INFO\":{\"mnrkndKornNm\":\"가돌리늄\",\"prcCrtr\":\"99.5%min EXW China\",\"isISE\":\"Y\",\"weigUnitCd\":\"kg\",\"prcUnitCdNm\":\"USD\"},\"WEEK\":{\"flctnPrc\":\"-1.19\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"-4.15\"},\"DAY\":{\"flctnPrc\":\"-0.29\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"-1.05\",\"cmercPrc\":27.46}},\"INFO\":{\"mnrkndKornNm\":\"가돌리늄\",\"prcCrtr\":\"99.5%min EXW China\",\"isISE\":\"Y\",\"weigUnitCd\":\"kg\",\"prcUnitCdNm\":\"USD\"}},\"data\":{\"compareMnrl\":[],\"defaultMnrl\":[{\"lowstPrc\":\"27.23\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.29\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"27.68\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"-1.05\",\"cmercPrc\":\"27.46\"},{\"lowstPrc\":\"27.53\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"27.98\",\"crtrYmd\":\"20261020\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"27.75\"},{\"lowstPrc\":\"27.53\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.44\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"27.97\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"-1.56\",\"cmercPrc\":\"27.75\"},{\"lowstPrc\":\"27.97\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.58\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.41\",\"crtrYmd\":\"20261016\",\"flctnPrcnt\":\"-2.02\",\"cmercPrc\":\"28.19\"},{\"lowstPrc\":\"28.55\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.99\",\"crtrYmd\":\"20261015\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"28.77\"},{\"lowstPrc\":\"28.55\",\"invt\":\"0.00\",\"flctnPrc\":\"0.02\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"29.00\",\"crtrYmd\":\"20261014\",\"flctnPrcnt\":\"0.07\",\"cmercPrc\":\"28.77\"},{\"lowstPrc\":\"28.53\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.98\",\"crtrYmd\":\"20261013\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"28.75\"},{\"lowstPrc\":\"28.52\",\"invt\":\"0.00\",\"flctnPrc\":\"0.01\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.97\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"0.03\",\"cmercPrc\":\"28.75\"},{\"lowstPrc\":\"28.52\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.96\",\"crtrYmd\":\"20261010\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"28.74\"},{\"lowstPrc\":\"28.52\",\"invt\":\"0.00\",\"flctnPrc\":\"0.02\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.96\",\"crtrYmd\":\"20261009\",\"flctnPrcnt\":\"0.07\",\"cmercPrc\":\"28.74\"},{\"lowstPrc\":\"28.50\",\"invt\":\"0.00\",\"flctnPrc\":\"0.05\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.95\",\"crtrYmd\":\"20261008\",\"flctnPrcnt\":\"0.17\",\"cmercPrc\":\"28.72\"},{\"lowstPrc\":\"28.45\",\"invt\":\"0.00\",\"flctnPrc\":\"-0.01\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.89\",\"crtrYmd\":\"20260924\",\"flctnPrcnt\":\"-0.03\",\"cmercPrc\":\"28.67\"},{\"lowstPrc\":\"28.46\",\"invt\":\"0.00\",\"flctnPrc\":\"0.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.90\",\"crtrYmd\":\"20260923\",\"flctnPrcnt\":\"0.00\",\"cmercPrc\":\"28.68\"},{\"lowstPrc\":\"28.46\",\"invt\":\"0.00\",\"flctnPrc\":\"0.01\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"28.91\",\"crtrYmd\":\"20260922\",\"flctnPrcnt\":\"0.03\",\"cmercPrc\":\"28.68\"},{\"lowstPrc"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getChartData",
+     "post": "mnrkndUnqRadioCd=MNRL1064&srchMnrkndUnqCd=MNRL1064&srchPrcCrtr=809&spcfct=99.5&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y&HP000=HP002",
+     "status": 200,
+     "body_head": "{\"data\":{\"xaxis\":[\"2024.01.02\",\"2024.01.03\",\"2024.01.04\",\"2024.01.05\",\"2024.01.08\",\"2024.01.09\",\"2024.01.10\",\"2024.01.11\",\"2024.01.12\",\"2024.01.15\",\"2024.01.16\",\"2024.01.17\",\"2024.01.18\",\"2024.01.19\",\"2024.01.22\",\"2024.01.23\",\"2024.01.24\",\"2024.01.25\",\"2024.01.26\",\"2024.01.29\",\"2024.01.30\",\"2024.01.31\",\"2024.02.01\",\"2024.02.02\",\"2024.02.04\",\"2024.02.05\",\"2024.02.06\",\"2024.02.07\",\"2024.02.19\",\"2024.02.20\",\"2024.02.21\",\"2024.02.22\",\"2024.02.23\",\"2024.02.26\",\"2024.02.27\",\"2024.02.28\",\"2024.02.29\",\"2024.03.01\",\"2024.03.04\",\"2024.03.05\",\"2024.03.06\",\"2024.03.07\",\"2024.03.08\",\"2024.03.11\",\"2024.03.12\",\"2024.03.13\",\"2024.03.14\",\"2024.03.15\",\"2024.03.18\",\"2024.03.19\",\"2024.03.20\",\"2024.03.21\",\"2024.03.22\",\"2024.03.25\",\"2024.03.26\",\"2024.03.27\",\"2024.03.28\",\"2024.03.29\",\"2024.04.01\",\"2024.04.02\",\"2024.04.03\",\"2024.04.07\",\"2024.04.08\",\"2024.04.09\",\"2024.04.10\",\"2024.04.11\",\"2024.04.12\",\"2024.04.15\",\"2024.04.16\",\"2024.04.17\",\"2024.04.18\",\"2024.04.19\",\"2024.04.30\",\"2024.05.06\",\"2024.05.07\",\"2024.05.08\",\"2024.05.09\",\"2024.05.10\",\"2024.05.11\",\"2024.05.13\",\"2024.05.14\",\"2024.05.15\",\"2024.05.16\",\"2024.05.17\",\"2024.05.20\",\"2024.05.21\",\"2024.05.22\",\"2024.05.23\",\"2024.05.24\",\"2024.05.27\",\"2024.05.28\",\"2024.05.29\",\"2024.06.05\",\"2024.06.06\",\"2024.06.07\",\"2024.06.11\",\"2024.06.12\",\"2024.06.13\",\"2024.06.14\",\"2024.06.25\",\"2024.06.26\",\"2024.06.27\",\"2024.06.28\",\"2024.07.01\",\"2024.07.02\",\"2024.07.03\",\"2024.07.04\",\"2024.07.05\",\"2024.07.08\",\"2024.07.09\",\"2024.07.10\",\"2024.07.11\",\"2024.07.12\",\"2024.07.15\",\"2024.07.16\",\"2024.07.17\",\"2024.07.18\",\"2024.07.19\",\"2024.07.22\",\"2024.07.23\",\"2024.07.24\",\"2024.07.25\",\"2024.07.26\",\"2024.07.29\",\"2024.07.30\",\"2024.07.31\",\"2024.08.01\",\"2024.08.02\",\"2024.08.05\",\"2024.08.06\",\"2024.08.09\",\"2024.08.12\",\"2024.08.13\",\"2024.08.14\",\"2024.08.15\",\"2024.08.16\",\"2024.08.19\",\"2024.08.20\",\"2024.08.21\",\"2024.08.22\",\"2024.08.23\",\"2024.08.26\",\"2024.08.28\",\"2024.08.29\",\"2024.08.30\",\"2024.09.02\",\"2024.09.03\",\"2024.09.04\",\"2024.09.05\",\"2024.09.06\",\"2024.09.09\",\"2024.09.10\",\"2024.09.11\",\"2024.09.12\",\"2024.09.13\",\"2024.09.14\",\"2024.09.18\",\"2024.09.19\",\"2024.09.20\",\"2024.09.23\",\"2024.09.24\",\"2024.09.27\",\"2024.10.08\",\"2024.10.09\",\"2024.10.10\",\"2024.10.11\",\"2024.10.12\",\"2024.10.14\",\"2024.10.15\",\"2024.10.16\",\"2024.10.17\",\"2024.10.18\",\"2024.10.21\",\"2024.10.23\",\"2024.10.24\",\"2024.10.25\",\"2024.10.29\",\"2024.10.30\",\"2024.10.31\",\"2024.11.01\",\"2024.11.04\",\"2024.11.05\",\"2024.11.06\",\"2024.11.07\",\"2024.11.08\",\"2024.11.11\",\"2024.11.12\",\"2024.11.13\",\"2024.11.14\",\"2024.11.15\",\"2024.11.18\",\"2024.11.19\",\"2024.11.20\",\"2024.11.21\",\"2024.11.22\",\"2024.11.25\",\"2024.11.26\",\"2024.11.27\",\"2024.11.28\",\"2024.11.29\",\"2024.12.02\",\"2024.12.04\",\"2024.12.05\",\"2024.12.06\",\"2024.12.09\",\"2024.12.10\",\"2024.12.11\",\"2024.12.12\",\"2024.12.13\",\"2024.12.16\",\"2024.12.17\",\"2024.12.18\",\"2024.12.19\",\"2024.12.20\",\"2024.12.23\",\"2024.12.24\",\"2024.12.25\",\"2024.12.26\",\"2024.12.27\",\"2024.12.30\",\"2024.12.31\",\"2025.01.02\",\"2025.01.03\",\"2025.01.06\",\"2025.01.07\",\"2025.01.08\",\"2025.01.09\",\"2025.01.10\",\"2025.01.13\",\"2025"
+    }
+   ],
+   "tables": [
+    [
+     [
+      "기준일",
+      "가격",
+      "전일대비",
+      "전주평균대비",
+      "전월평균대비",
+      "전년평균대비"
+     ],
+     [
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)"
+     ],
+     [
+      "2026-10-21",
+      "27.46",
+      "하락 :0.29",
+      "하락 :1.05",
+      "하락 :1.19",
+      "하락 :4.15",
+      "하락 :1.35",
+      "하락 :4.69",
+      "상승 :4.78",
+      "상승 :21.08"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "기준가격",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "2026-10-21",
+      "27.46",
+      "하락 :0.29",
+      "하락 :1.05"
+     ],
+     [
+      "2026-10-20",
+      "27.75",
+      "변동없음 :0.00",
+      "변동없음 :0.00"
+     ],
+     [
+      "2026-10-19",
+      "27.75",
+      "하락 :0.44",
+      "하락 :1.56"
+     ],
+     [
+      "2026-10-16",
+      "28.19",
+      "하락 :0.58",
+      "하락 :2.02"
+     ],
+     [
+      "2026-10-15",
+      "28.77",
+      "변동없음 :0.00",
+      "변동없음 :0.00"
+     ],
+     [
+      "2026-10-14",
+      "28.77",
+      "상승 :0.02",
+      "상승 :0.07"
+     ],
+     [
+      "2026-10-13",
+      "28.75",
+      "변동없음 :0.00",
+      "변동없음 :0.00"
+     ],
+     [
+      "2026-10-12",
+      "28.75",
+      "상승 :0.01",
+      "상승 :0.03"
+     ],
+     [
+      "2026-10-10",
+      "28.74",
+      "변동없음 :0.00",
+      "변동없음 :0.00"
+     ],
+     [
+      "2026-10-09",
+      "28.74",
+      "상승 :0.02",
+      "상승 :0.07"
+     ],
+     [
+      "2026-10-08",
+      "28.72",
+      "상승 :0.05",
+      "상승 :0.17"
+     ],
+     [
+      "2026-09-24",
+      "28.67",
+      "하락 :0.01",
+      "하락 :0.03"
+     ],
+     [
+      "2026-09-23",
+      "28.68",
+      "변동없음 :0.00",
+      "변동없음 :0.00"
+     ],
+     [
+      "2026-09-22",
+      "28.68",
+      "상승 :0.01",
+      "상승 :0.03"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "가격",
+      "전일대비",
+      "전주평균대비",
+      "전월평균대비",
+      "전년평균대비"
+     ],
+     [
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "기준가격",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "데이터가 없습니다."
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "재고량",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ]
+    ]
+   ],
+   "selects": {
+    "srchMnrkndUnqCd": [
+     [
+      "MNRL1064",
+      "가돌리늄"
+     ],
+     [
+      "MNRL0024",
+      "갈륨"
+     ],
+     [
+      "MNRL0035",
+      "게르마늄"
+     ],
+     [
+      "MNRL0010",
+      "규소"
+     ],
+     [
+      "MNRL1001",
+      "네오디뮴"
+     ],
+     [
+      "MNRL0007",
+      "니오븀"
+     ],
+     [
+      "MNRL1004",
+      "디스프로슘"
+     ],
+     [
+      "MNRL1003",
+      "란탄"
+     ],
+     [
+      "MNRL1055",
+      "루테튬"
+     ],
+     [
+      "MNRL0001",
+      "리튬"
+     ],
+     [
+      "MNRL0011",
+      "마그네슘"
+     ],
+     [
+      "MNRL0004",
+      "망간"
+     ],
+     [
+      "MNRL0012",
+      "몰리브덴"
+     ],
+     [
+      "MNRL0013",
+      "바나듐"
+     ],
+     [
+      "MNRL1062",
+      "사마륨"
+     ],
+     [
+      "MNRL1002",
+      "세륨"
+     ],
+     [
+      "MNRL0029",
+      "셀레늄"
+     ],
+     [
+      "MNRL1053",
+      "스칸듐"
+     ],
+     [
+      "MNRL0028",
+      "스트론튬"
+     ],
+     [
+      "MNRL0019",
+      "안티모니"
+     ],
+     [
+      "MNRL1067",
+      "에르븀"
+     ],
+     [
+      "MNRL1063",
+      "유로퓸"
+     ],
+     [
+      "MNRL1054",
+      "이트륨"
+     ],
+     [
+      "MNRL0025",
+      "인듐"
+     ],
+     [
+      "MNRL0027",
+      "지르코늄"
+     ],
+     [
+      "MNRL0020",
+      "창연"
+     ],
+     [
+      "MNRL0003",
+      "코발트"
+     ],
+     [
+      "MNRL0021",
+      "크롬"
+     ],
+     [
+      "MNRL0026",
+      "탄탈륨"
+     ],
+     [
+      "MNRL1005",
+      "터븀"
+     ],
+     [
+      "MNRL0018",
+      "텅스텐"
+     ],
+     [
+      "MNRL0017",
+      "티타늄"
+     ],
+     [
+      "MNRL1056",
+      "프라세오디뮴"
+     ],
+     [
+      "MNRL1068",
+      "홀뮴"
+     ]
+    ],
+    "srchPrcCrtr": [
+     [
+      "809",
+      "Gadolinium Oxide"
+     ]
+    ],
+    "spcfct": [
+     [
+      "99.5",
+      "99.5"
+     ]
+    ],
+    "srchAvgOpt": [
+     [
+      "DAY",
+      "일간"
+     ],
+     [
+      "WEEK",
+      "주간"
+     ],
+     [
+      "MONTH",
+      "월간"
+     ],
+     [
+      "QUARTER",
+      "분기"
+     ],
+     [
+      "YEAR",
+      "년간"
+     ]
+    ],
+    "srchStartDate": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ]
+    ],
+    "srchEndDate": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ]
+    ],
+    "srchCompareMnrkndUnqCd": [
+     [
+      "",
+      "[선택]"
+     ],
+     [
+      "MNRL1064",
+      "가돌리늄"
+     ],
+     [
+      "MNRL0024",
+      "갈륨"
+     ],
+     [
+      "MNRL0035",
+      "게르마늄"
+     ],
+     [
+      "MNRL0010",
+      "규소"
+     ],
+     [
+      "MNRL1001",
+      "네오디뮴"
+     ],
+     [
+      "MNRL0007",
+      "니오븀"
+     ],
+     [
+      "MNRL1004",
+      "디스프로슘"
+     ],
+     [
+      "MNRL1003",
+      "란탄"
+     ],
+     [
+      "MNRL1055",
+      "루테튬"
+     ],
+     [
+      "MNRL0001",
+      "리튬"
+     ],
+     [
+      "MNRL0011",
+      "마그네슘"
+     ],
+     [
+      "MNRL0004",
+      "망간"
+     ],
+     [
+      "MNRL0012",
+      "몰리브덴"
+     ],
+     [
+      "MNRL0013",
+      "바나듐"
+     ],
+     [
+      "MNRL1062",
+      "사마륨"
+     ],
+     [
+      "MNRL1002",
+      "세륨"
+     ],
+     [
+      "MNRL0029",
+      "셀레늄"
+     ],
+     [
+      "MNRL1053",
+      "스칸듐"
+     ],
+     [
+      "MNRL0028",
+      "스트론튬"
+     ],
+     [
+      "MNRL0019",
+      "안티모니"
+     ],
+     [
+      "MNRL1067",
+      "에르븀"
+     ],
+     [
+      "MNRL1063",
+      "유로퓸"
+     ],
+     [
+      "MNRL1054",
+      "이트륨"
+     ],
+     [
+      "MNRL0025",
+      "인듐"
+     ],
+     [
+      "MNRL0027",
+      "지르코늄"
+     ],
+     [
+      "MNRL0020",
+      "창연"
+     ],
+     [
+      "MNRL0003",
+      "코발트"
+     ],
+     [
+      "MNRL0021",
+      "크롬"
+     ],
+     [
+      "MNRL0026",
+      "탄탈륨"
+     ],
+     [
+      "MNRL1005",
+      "터븀"
+     ],
+     [
+      "MNRL0018",
+      "텅스텐"
+     ],
+     [
+      "MNRL0017",
+      "티타늄"
+     ],
+     [
+      "MNRL1056",
+      "프라세오디뮴"
+     ],
+     [
+      "MNRL1068",
+      "홀뮴"
+     ]
+    ],
+    "srchComparePrcCrtr": [
+     [
+      "[선택]",
+      "[선택]"
+     ]
+    ]
+   },
+   "error": null
+  },
+  {
+   "url": "https://www.komis.or.kr/Komis/RsrcPrice/EtcMnrl",
+   "xhr": [
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/ajax/common/getFrontMenu",
+     "post": null,
+     "status": 200,
+     "body_head": "{\"data\":[{\"menuNm2\":\"일일자원뉴스\",\"menuCd\":\"010016000\",\"menuSrt\":\"110\",\"menuPath\":\"/Komis/Board/DAYNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"주간자원뉴스\",\"menuCd\":\"010017000\",\"menuSrt\":\"120\",\"menuPath\":\"/Komis/Board/WEEKNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"전략광종 월간동향\",\"menuCd\":\"010018000\",\"menuSrt\":\"130\",\"menuPath\":\"/Komis/Board/STRGMONTH\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"희소금속 월간동향\",\"menuCd\":\"010019000\",\"menuSrt\":\"140\",\"menuPath\":\"/Komis/Board/RAREMONTH\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"해외네트워크뉴스\",\"menuCd\":\"010021000\",\"menuSrt\":\"150\",\"menuPath\":\"/Komis/Board/FRNNETNEWS\",\"menuNm1\":\"광물자원동향\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"비철금속\",\"menuCd\":\"013010000\",\"menuSrt\":\"210\",\"menuPath\":\"/Komis/RsrcPrice/BaseMetals\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"희소금속\",\"menuCd\":\"013011000\",\"menuSrt\":\"220\",\"menuPath\":\"/Komis/RsrcPrice/MinorMetals\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"철광석 및 에너지\",\"menuCd\":\"013012000\",\"menuSrt\":\"230\",\"menuPath\":\"/Komis/RsrcPrice/IronOre\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"기타\",\"menuCd\":\"013013000\",\"menuSrt\":\"240\",\"menuPath\":\"/Komis/RsrcPrice/EtcMnrl\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"국내원자재가격(조달청)\",\"menuCd\":\"013014000\",\"menuSrt\":\"250\",\"menuPath\":\"pps.go.kr/bichuk/bbs/list.do?key=00825\",\"menuNm1\":\"광물자원가격\",\"menuType\":\"L\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"광물종합지수\",\"menuCd\":\"014010000\",\"menuSrt\":\"310\",\"menuPath\":\"/Komis/MnrlIndc/IndxMin\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"시장동향지표\",\"menuCd\":\"014011000\",\"menuSrt\":\"320\",\"menuPath\":\"/Komis/MnrlIndc/IndcMrkt\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"수급동향지표\",\"menuCd\":\"014012000\",\"menuSrt\":\"330\",\"menuPath\":\"/Komis/MnrlIndc/IndxSply\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"가격예측\",\"menuNm2\":\"광물가격예측\",\"menuCd\":\"014014010\",\"menuSrt\":\"341\",\"menuPath\":\"/Komis/MnrlIndc/PricePred\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"자원정보 FOCUS\",\"menuNm2\":\"광물가격예측\",\"menuCd\":\"014014011\",\"menuSrt\":\"342\",\"menuPath\":\"/Komis/Board/RESORCFOCUS\",\"menuNm1\":\"광물전망지표\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"광종정보\",\"menuCd\":\"011010000\",\"menuSrt\":\"410\",\"menuPath\":\"/Komis/MnrlInfo/MnrlInfo\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"국가정보\",\"menuCd\":\"011011000\",\"menuSrt\":\"420\",\"menuPath\":\"/Komis/MnrlInfo/NationInfo\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"F\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"법령정보\",\"menuCd\":\"011012000\",\"menuSrt\":\"430\",\"menuPath\":\"/Komis/Board/LAWINFO\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"B\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm2\":\"투자실무가이드\",\"menuCd\":\"011016000\",\"menuSrt\":\"470\",\"menuPath\":\"web.e-factory.co.kr/KOMIR/202610/index.html\",\"menuNm1\":\"광종/국가정보\",\"menuType\":\"L\",\"mainMenuExpstYn\":\"Y\"},{\"menuNm3\":\"대한민국\",\"menuNm2\":\""
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMnrlKndInfoCodeList",
+     "post": "cdType=HP000&cdGrp=HP004",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"금\",\"cdEngVal\":\"Gold\",\"cdKey\":\"MNRL0046\"},{\"cdVal\":\"루테늄\",\"cdEngVal\":\"Ruthenium\",\"cdKey\":\"MNRL1070\"},{\"cdVal\":\"백금\",\"cdEngVal\":\"Platinum\",\"cdKey\":\"MNRL0014\"},{\"cdVal\":\"은\",\"cdEngVal\":\"Silver\",\"cdKey\":\"MNRL0047\"},{\"cdVal\":\"인광석\",\"cdEngVal\":\"Phosphate Rock\",\"cdKey\":\"MNRL0036\"},{\"cdVal\":\"팔라듐\",\"cdEngVal\":\"Palladium\",\"cdKey\":\"MNRL0015\"},{\"cdVal\":\"형석\",\"cdEngVal\":\"Fluorite\",\"cdKey\":\"MNRL0061\"},{\"cdVal\":\"흑연\",\"cdEngVal\":\"Graphite\",\"cdKey\":\"MNRL0005\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getCodeList",
+     "post": "cdGrp=PR000",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"USD\",\"cdSrt\":1,\"cdKey\":\"PR001\"},{\"cdVal\":\"천불\",\"cdSrt\":2,\"cdKey\":\"PR002\"},{\"cdVal\":\"백만불\",\"cdSrt\":3,\"cdKey\":\"PR003\"},{\"cdVal\":\"억불\",\"cdSrt\":4,\"cdKey\":\"PR004\"},{\"cdVal\":\"RMB\",\"cdSrt\":5,\"cdKey\":\"PR005\"},{\"cdVal\":\"Yn\",\"cdSrt\":7,\"cdKey\":\"PR007\"},{\"cdVal\":\"US￠\",\"cdSrt\":8,\"cdKey\":\"PR008\"},{\"cdVal\":\"CNY\",\"cdSrt\":9,\"cdKey\":\"PR009\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMnrlKndInfoCodeList",
+     "post": "cdType=HP000&cdGrp=HP004",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"금\",\"cdEngVal\":\"Gold\",\"cdKey\":\"MNRL0046\"},{\"cdVal\":\"루테늄\",\"cdEngVal\":\"Ruthenium\",\"cdKey\":\"MNRL1070\"},{\"cdVal\":\"백금\",\"cdEngVal\":\"Platinum\",\"cdKey\":\"MNRL0014\"},{\"cdVal\":\"은\",\"cdEngVal\":\"Silver\",\"cdKey\":\"MNRL0047\"},{\"cdVal\":\"인광석\",\"cdEngVal\":\"Phosphate Rock\",\"cdKey\":\"MNRL0036\"},{\"cdVal\":\"팔라듐\",\"cdEngVal\":\"Palladium\",\"cdKey\":\"MNRL0015\"},{\"cdVal\":\"형석\",\"cdEngVal\":\"Fluorite\",\"cdKey\":\"MNRL0061\"},{\"cdVal\":\"흑연\",\"cdEngVal\":\"Graphite\",\"cdKey\":\"MNRL0005\"}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPriceCrtr",
+     "post": "HP000=HP004&mnrkndUnqCd=MNRL0046",
+     "status": 200,
+     "body_head": "{\"data\":[{\"cdVal\":\"London Gold Market Fixing Ltd- LBMA PM Fixing Price/USD\",\"cdKey\":701}]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd",
+     "post": "mnrkndUnqRadioCd=MNRL0046&srchMnrkndUnqCd=MNRL0046&srchPrcCrtr=701&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y",
+     "status": 200,
+     "body_head": "{\"dataAvg\":{\"stdMap\":{\"MONTH\":{\"flctnPrc\":\"-197.32\",\"crtrYmd\":\"202610\",\"flctnPrcnt\":\"-4.56\"},\"YEAR\":{\"flctnPrc\":\"695.86\",\"crtrYmd\":\"2026\",\"flctnPrcnt\":\"20.28\"},\"CRTRYMD\":{\"crtrYmd\":\"20261021\",\"cmercPrc\":\"4127.40\"},\"INFO\":{\"mnrkndKornNm\":\"금\",\"prcCrtr\":\"London Gold Market Fixing Ltd- LBMA PM Fixing Price/USD\",\"isISE\":\"N\",\"weigUnitCd\":\"troz\",\"prcUnitCdNm\":\"USD\"},\"WEEK\":{\"flctnPrc\":\"-27.02\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"-0.65\"},\"DAY\":{\"flctnPrc\":\"2.90\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"0.07\",\"cmercPrc\":4127.4}},\"INFO\":{\"mnrkndKornNm\":\"금\",\"prcCrtr\":\"London Gold Market Fixing Ltd- LBMA PM Fixing Price/USD\",\"isISE\":\"N\",\"weigUnitCd\":\"troz\",\"prcUnitCdNm\":\"USD\"}},\"data\":{\"compareMnrl\":[],\"defaultMnrl\":[{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"2.90\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"0.07\",\"cmercPrc\":\"4127.40\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-23.30\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261020\",\"flctnPrcnt\":\"-0.56\",\"cmercPrc\":\"4124.50\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-41.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"-0.99\",\"cmercPrc\":\"4147.80\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"36.95\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261016\",\"flctnPrcnt\":\"0.89\",\"cmercPrc\":\"4189.20\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"63.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261015\",\"flctnPrcnt\":\"1.54\",\"cmercPrc\":\"4152.25\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-80.25\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261014\",\"flctnPrcnt\":\"-1.92\",\"cmercPrc\":\"4089.25\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-2.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261013\",\"flctnPrcnt\":\"-0.06\",\"cmercPrc\":\"4169.50\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-14.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"-0.34\",\"cmercPrc\":\"4171.90\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"61.75\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261009\",\"flctnPrcnt\":\"1.50\",\"cmercPrc\":\"4186.30\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"29.15\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261008\",\"flctnPrcnt\":\"0.71\",\"cmercPrc\":\"4124.55\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-61.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261007\",\"flctnPrcnt\":\"-1.47\",\"cmercPrc\":\"4095.40\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"14.75\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261006\",\"flctnPrcnt\":\"0.36\",\"cmercPrc\":\"4156.40\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-48.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261005\",\"flctnPrcnt\":\"-1.16\",\"cmercPrc\":\"4141.65\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"38.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/Search/ajax/getSearchedWordList",
+     "post": null,
+     "status": 200,
+     "body_head": "{\"searchedWordList\":[]}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/ajax/common/getMenuUpperCn",
+     "post": "menuCode=013013000",
+     "status": 200,
+     "body_head": "{\"upperCn\":\"본 서비스는 대국민 서비스 목적으로 명시적 또는 묵시적인 어떠한 형태의 보증도 하지 않으므로 법적 책임의 증빙자료로 사용될 수 없음을 알려드립니다.\",\"uprowClas\":\"U\"}"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getChartData",
+     "post": "mnrkndUnqRadioCd=MNRL0046&srchMnrkndUnqCd=MNRL0046&srchPrcCrtr=701&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y&HP000=HP004",
+     "status": 200,
+     "body_head": "{\"data\":{\"xaxis\":[\"2024.01.02\",\"2024.01.03\",\"2024.01.04\",\"2024.01.05\",\"2024.01.08\",\"2024.01.09\",\"2024.01.10\",\"2024.01.11\",\"2024.01.12\",\"2024.01.15\",\"2024.01.16\",\"2024.01.17\",\"2024.01.18\",\"2024.01.19\",\"2024.01.22\",\"2024.01.23\",\"2024.01.24\",\"2024.01.25\",\"2024.01.26\",\"2024.01.29\",\"2024.01.30\",\"2024.01.31\",\"2024.02.01\",\"2024.02.02\",\"2024.02.05\",\"2024.02.06\",\"2024.02.07\",\"2024.02.08\",\"2024.02.09\",\"2024.02.12\",\"2024.02.13\",\"2024.02.14\",\"2024.02.15\",\"2024.02.16\",\"2024.02.19\",\"2024.02.20\",\"2024.02.21\",\"2024.02.22\",\"2024.02.23\",\"2024.02.26\",\"2024.02.27\",\"2024.02.28\",\"2024.02.29\",\"2024.03.01\",\"2024.03.04\",\"2024.03.05\",\"2024.03.06\",\"2024.03.07\",\"2024.03.08\",\"2024.03.11\",\"2024.03.12\",\"2024.03.13\",\"2024.03.14\",\"2024.03.15\",\"2024.03.18\",\"2024.03.19\",\"2024.03.20\",\"2024.03.21\",\"2024.03.22\",\"2024.03.25\",\"2024.03.26\",\"2024.03.27\",\"2024.03.28\",\"2024.04.02\",\"2024.04.03\",\"2024.04.04\",\"2024.04.05\",\"2024.04.08\",\"2024.04.09\",\"2024.04.10\",\"2024.04.11\",\"2024.04.12\",\"2024.04.15\",\"2024.04.16\",\"2024.04.17\",\"2024.04.18\",\"2024.04.19\",\"2024.04.22\",\"2024.04.23\",\"2024.04.24\",\"2024.04.25\",\"2024.04.26\",\"2024.04.29\",\"2024.04.30\",\"2024.05.01\",\"2024.05.02\",\"2024.05.03\",\"2024.05.07\",\"2024.05.08\",\"2024.05.09\",\"2024.05.10\",\"2024.05.13\",\"2024.05.14\",\"2024.05.15\",\"2024.05.16\",\"2024.05.17\",\"2024.05.20\",\"2024.05.21\",\"2024.05.22\",\"2024.05.23\",\"2024.05.24\",\"2024.05.28\",\"2024.05.29\",\"2024.05.30\",\"2024.05.31\",\"2024.06.03\",\"2024.06.04\",\"2024.06.05\",\"2024.06.06\",\"2024.06.07\",\"2024.06.10\",\"2024.06.11\",\"2024.06.12\",\"2024.06.13\",\"2024.06.14\",\"2024.06.17\",\"2024.06.18\",\"2024.06.19\",\"2024.06.20\",\"2024.06.21\",\"2024.06.24\",\"2024.06.25\",\"2024.06.26\",\"2024.06.27\",\"2024.06.28\",\"2024.07.01\",\"2024.07.02\",\"2024.07.03\",\"2024.07.04\",\"2024.07.05\",\"2024.07.08\",\"2024.07.09\",\"2024.07.10\",\"2024.07.11\",\"2024.07.12\",\"2024.07.15\",\"2024.07.16\",\"2024.07.17\",\"2024.07.18\",\"2024.07.19\",\"2024.07.22\",\"2024.07.23\",\"2024.07.24\",\"2024.07.25\",\"2024.07.26\",\"2024.07.29\",\"2024.07.30\",\"2024.07.31\",\"2024.08.01\",\"2024.08.02\",\"2024.08.05\",\"2024.08.06\",\"2024.08.07\",\"2024.08.08\",\"2024.08.09\",\"2024.08.12\",\"2024.08.13\",\"2024.08.14\",\"2024.08.15\",\"2024.08.16\",\"2024.08.19\",\"2024.08.20\",\"2024.08.21\",\"2024.08.22\",\"2024.08.23\",\"2024.08.27\",\"2024.08.28\",\"2024.08.29\",\"2024.08.30\",\"2024.09.02\",\"2024.09.03\",\"2024.09.04\",\"2024.09.05\",\"2024.09.06\",\"2024.09.09\",\"2024.09.10\",\"2024.09.11\",\"2024.09.12\",\"2024.09.13\",\"2024.09.16\",\"2024.09.17\",\"2024.09.18\",\"2024.09.19\",\"2024.09.20\",\"2024.09.23\",\"2024.09.24\",\"2024.09.25\",\"2024.09.26\",\"2024.09.27\",\"2024.09.30\",\"2024.10.01\",\"2024.10.02\",\"2024.10.03\",\"2024.10.04\",\"2024.10.07\",\"2024.10.08\",\"2024.10.09\",\"2024.10.10\",\"2024.10.11\",\"2024.10.14\",\"2024.10.15\",\"2024.10.16\",\"2024.10.17\",\"2024.10.18\",\"2024.10.21\",\"2024.10.22\",\"2024.10.23\",\"2024.10.24\",\"2024.10.25\",\"2024.10.28\",\"2024.10.29\",\"2024.10.30\",\"2024.10.31\",\"2024.11.01\",\"2024.11.04\",\"2024.11.05\",\"2024.11.06\",\"2024.11.07\",\"2024.11.08\",\"2024.11.11\",\"2024.11.12\",\"2024.11.13\",\"2024.11.14\",\"2024.11.15\",\"2024.11.18\",\"2024.11.19\",\"2024.11.20\",\"2024.11.21\",\"2024.11.22\",\"2024"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getMnrlPrcByMnrkndUnqCd",
+     "post": "mnrkndUnqRadioCd=MNRL0046&srchMnrkndUnqCd=MNRL0046&srchPrcCrtr=701&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y",
+     "status": 200,
+     "body_head": "{\"dataAvg\":{\"stdMap\":{\"MONTH\":{\"flctnPrc\":\"-197.32\",\"crtrYmd\":\"202610\",\"flctnPrcnt\":\"-4.56\"},\"YEAR\":{\"flctnPrc\":\"695.86\",\"crtrYmd\":\"2026\",\"flctnPrcnt\":\"20.28\"},\"CRTRYMD\":{\"crtrYmd\":\"20261021\",\"cmercPrc\":\"4127.40\"},\"INFO\":{\"mnrkndKornNm\":\"금\",\"prcCrtr\":\"London Gold Market Fixing Ltd- LBMA PM Fixing Price/USD\",\"isISE\":\"N\",\"weigUnitCd\":\"troz\",\"prcUnitCdNm\":\"USD\"},\"WEEK\":{\"flctnPrc\":\"-27.02\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"-0.65\"},\"DAY\":{\"flctnPrc\":\"2.90\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"0.07\",\"cmercPrc\":4127.4}},\"INFO\":{\"mnrkndKornNm\":\"금\",\"prcCrtr\":\"London Gold Market Fixing Ltd- LBMA PM Fixing Price/USD\",\"isISE\":\"N\",\"weigUnitCd\":\"troz\",\"prcUnitCdNm\":\"USD\"}},\"data\":{\"compareMnrl\":[],\"defaultMnrl\":[{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"2.90\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261021\",\"flctnPrcnt\":\"0.07\",\"cmercPrc\":\"4127.40\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-23.30\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261020\",\"flctnPrcnt\":\"-0.56\",\"cmercPrc\":\"4124.50\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-41.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261019\",\"flctnPrcnt\":\"-0.99\",\"cmercPrc\":\"4147.80\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"36.95\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261016\",\"flctnPrcnt\":\"0.89\",\"cmercPrc\":\"4189.20\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"63.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261015\",\"flctnPrcnt\":\"1.54\",\"cmercPrc\":\"4152.25\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-80.25\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261014\",\"flctnPrcnt\":\"-1.92\",\"cmercPrc\":\"4089.25\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-2.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261013\",\"flctnPrcnt\":\"-0.06\",\"cmercPrc\":\"4169.50\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-14.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261012\",\"flctnPrcnt\":\"-0.34\",\"cmercPrc\":\"4171.90\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"61.75\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261009\",\"flctnPrcnt\":\"1.50\",\"cmercPrc\":\"4186.30\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"29.15\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261008\",\"flctnPrcnt\":\"0.71\",\"cmercPrc\":\"4124.55\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-61.00\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261007\",\"flctnPrcnt\":\"-1.47\",\"cmercPrc\":\"4095.40\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"14.75\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261006\",\"flctnPrcnt\":\"0.36\",\"cmercPrc\":\"4156.40\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"-48.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0.00\",\"hghstPrc\":\"0.00\",\"crtrYmd\":\"20261005\",\"flctnPrcnt\":\"-1.16\",\"cmercPrc\":\"4141.65\"},{\"lowstPrc\":\"0.00\",\"invt\":\"0.00\",\"flctnPrc\":\"38.40\",\"invtPrcnt\":\"0.00\",\"invtPrc\":\"0"
+    },
+    {
+     "method": "POST",
+     "url": "https://www.komis.or.kr/Komis/RsrcPrice/ajax/getChartData",
+     "post": "mnrkndUnqRadioCd=MNRL0046&srchMnrkndUnqCd=MNRL0046&srchPrcCrtr=701&srchAvgOpt=DAY&srchField=year&srchStartDate=2024&srchEndDate=2026&srchCompareMnrkndUnqCd=&srchComparePrcCrtr=%5B%EC%84%A0%ED%83%9D%5D&lmeInvt=Y&HP000=HP004",
+     "status": 200,
+     "body_head": "{\"data\":{\"xaxis\":[\"2024.01.02\",\"2024.01.03\",\"2024.01.04\",\"2024.01.05\",\"2024.01.08\",\"2024.01.09\",\"2024.01.10\",\"2024.01.11\",\"2024.01.12\",\"2024.01.15\",\"2024.01.16\",\"2024.01.17\",\"2024.01.18\",\"2024.01.19\",\"2024.01.22\",\"2024.01.23\",\"2024.01.24\",\"2024.01.25\",\"2024.01.26\",\"2024.01.29\",\"2024.01.30\",\"2024.01.31\",\"2024.02.01\",\"2024.02.02\",\"2024.02.05\",\"2024.02.06\",\"2024.02.07\",\"2024.02.08\",\"2024.02.09\",\"2024.02.12\",\"2024.02.13\",\"2024.02.14\",\"2024.02.15\",\"2024.02.16\",\"2024.02.19\",\"2024.02.20\",\"2024.02.21\",\"2024.02.22\",\"2024.02.23\",\"2024.02.26\",\"2024.02.27\",\"2024.02.28\",\"2024.02.29\",\"2024.03.01\",\"2024.03.04\",\"2024.03.05\",\"2024.03.06\",\"2024.03.07\",\"2024.03.08\",\"2024.03.11\",\"2024.03.12\",\"2024.03.13\",\"2024.03.14\",\"2024.03.15\",\"2024.03.18\",\"2024.03.19\",\"2024.03.20\",\"2024.03.21\",\"2024.03.22\",\"2024.03.25\",\"2024.03.26\",\"2024.03.27\",\"2024.03.28\",\"2024.04.02\",\"2024.04.03\",\"2024.04.04\",\"2024.04.05\",\"2024.04.08\",\"2024.04.09\",\"2024.04.10\",\"2024.04.11\",\"2024.04.12\",\"2024.04.15\",\"2024.04.16\",\"2024.04.17\",\"2024.04.18\",\"2024.04.19\",\"2024.04.22\",\"2024.04.23\",\"2024.04.24\",\"2024.04.25\",\"2024.04.26\",\"2024.04.29\",\"2024.04.30\",\"2024.05.01\",\"2024.05.02\",\"2024.05.03\",\"2024.05.07\",\"2024.05.08\",\"2024.05.09\",\"2024.05.10\",\"2024.05.13\",\"2024.05.14\",\"2024.05.15\",\"2024.05.16\",\"2024.05.17\",\"2024.05.20\",\"2024.05.21\",\"2024.05.22\",\"2024.05.23\",\"2024.05.24\",\"2024.05.28\",\"2024.05.29\",\"2024.05.30\",\"2024.05.31\",\"2024.06.03\",\"2024.06.04\",\"2024.06.05\",\"2024.06.06\",\"2024.06.07\",\"2024.06.10\",\"2024.06.11\",\"2024.06.12\",\"2024.06.13\",\"2024.06.14\",\"2024.06.17\",\"2024.06.18\",\"2024.06.19\",\"2024.06.20\",\"2024.06.21\",\"2024.06.24\",\"2024.06.25\",\"2024.06.26\",\"2024.06.27\",\"2024.06.28\",\"2024.07.01\",\"2024.07.02\",\"2024.07.03\",\"2024.07.04\",\"2024.07.05\",\"2024.07.08\",\"2024.07.09\",\"2024.07.10\",\"2024.07.11\",\"2024.07.12\",\"2024.07.15\",\"2024.07.16\",\"2024.07.17\",\"2024.07.18\",\"2024.07.19\",\"2024.07.22\",\"2024.07.23\",\"2024.07.24\",\"2024.07.25\",\"2024.07.26\",\"2024.07.29\",\"2024.07.30\",\"2024.07.31\",\"2024.08.01\",\"2024.08.02\",\"2024.08.05\",\"2024.08.06\",\"2024.08.07\",\"2024.08.08\",\"2024.08.09\",\"2024.08.12\",\"2024.08.13\",\"2024.08.14\",\"2024.08.15\",\"2024.08.16\",\"2024.08.19\",\"2024.08.20\",\"2024.08.21\",\"2024.08.22\",\"2024.08.23\",\"2024.08.27\",\"2024.08.28\",\"2024.08.29\",\"2024.08.30\",\"2024.09.02\",\"2024.09.03\",\"2024.09.04\",\"2024.09.05\",\"2024.09.06\",\"2024.09.09\",\"2024.09.10\",\"2024.09.11\",\"2024.09.12\",\"2024.09.13\",\"2024.09.16\",\"2024.09.17\",\"2024.09.18\",\"2024.09.19\",\"2024.09.20\",\"2024.09.23\",\"2024.09.24\",\"2024.09.25\",\"2024.09.26\",\"2024.09.27\",\"2024.09.30\",\"2024.10.01\",\"2024.10.02\",\"2024.10.03\",\"2024.10.04\",\"2024.10.07\",\"2024.10.08\",\"2024.10.09\",\"2024.10.10\",\"2024.10.11\",\"2024.10.14\",\"2024.10.15\",\"2024.10.16\",\"2024.10.17\",\"2024.10.18\",\"2024.10.21\",\"2024.10.22\",\"2024.10.23\",\"2024.10.24\",\"2024.10.25\",\"2024.10.28\",\"2024.10.29\",\"2024.10.30\",\"2024.10.31\",\"2024.11.01\",\"2024.11.04\",\"2024.11.05\",\"2024.11.06\",\"2024.11.07\",\"2024.11.08\",\"2024.11.11\",\"2024.11.12\",\"2024.11.13\",\"2024.11.14\",\"2024.11.15\",\"2024.11.18\",\"2024.11.19\",\"2024.11.20\",\"2024.11.21\",\"2024.11.22\",\"2024"
+    }
+   ],
+   "tables": [
+    [
+     [
+      "기준일",
+      "가격",
+      "전일대비",
+      "전주평균대비",
+      "전월평균대비",
+      "전년평균대비"
+     ],
+     [
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)"
+     ],
+     [
+      "2026-10-21",
+      "4,127.40",
+      "상승 :2.90",
+      "상승 :0.07",
+      "하락 :27.02",
+      "하락 :0.65",
+      "하락 :197.32",
+      "하락 :4.56",
+      "상승 :695.86",
+      "상승 :20.28"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "기준가격",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "2026-10-21",
+      "4,127.40",
+      "상승 :2.90",
+      "상승 :0.07"
+     ],
+     [
+      "2026-10-20",
+      "4,124.50",
+      "하락 :23.30",
+      "하락 :0.56"
+     ],
+     [
+      "2026-10-19",
+      "4,147.80",
+      "하락 :41.40",
+      "하락 :0.99"
+     ],
+     [
+      "2026-10-16",
+      "4,189.20",
+      "상승 :36.95",
+      "상승 :0.89"
+     ],
+     [
+      "2026-10-15",
+      "4,152.25",
+      "상승 :63.00",
+      "상승 :1.54"
+     ],
+     [
+      "2026-10-14",
+      "4,089.25",
+      "하락 :80.25",
+      "하락 :1.92"
+     ],
+     [
+      "2026-10-13",
+      "4,169.50",
+      "하락 :2.40",
+      "하락 :0.06"
+     ],
+     [
+      "2026-10-12",
+      "4,171.90",
+      "하락 :14.40",
+      "하락 :0.34"
+     ],
+     [
+      "2026-10-09",
+      "4,186.30",
+      "상승 :61.75",
+      "상승 :1.50"
+     ],
+     [
+      "2026-10-08",
+      "4,124.55",
+      "상승 :29.15",
+      "상승 :0.71"
+     ],
+     [
+      "2026-10-07",
+      "4,095.40",
+      "하락 :61.00",
+      "하락 :1.47"
+     ],
+     [
+      "2026-10-06",
+      "4,156.40",
+      "상승 :14.75",
+      "상승 :0.36"
+     ],
+     [
+      "2026-10-05",
+      "4,141.65",
+      "하락 :48.40",
+      "하락 :1.16"
+     ],
+     [
+      "2026-10-02",
+      "4,190.05",
+      "상승 :38.40",
+      "상승 :0.92"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "가격",
+      "전일대비",
+      "전주평균대비",
+      "전월평균대비",
+      "전년평균대비"
+     ],
+     [
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)",
+      "등락가",
+      "등락율(%)"
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "기준가격",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ],
+     [
+      "데이터가 없습니다."
+     ]
+    ],
+    [
+     [
+      "기준일",
+      "재고량",
+      "전일대비등락가",
+      "전일대비등락율(%)"
+     ]
+    ]
+   ],
+   "selects": {
+    "srchMnrkndUnqCd": [
+     [
+      "MNRL0046",
+      "금"
+     ],
+     [
+      "MNRL1070",
+      "루테늄"
+     ],
+     [
+      "MNRL0014",
+      "백금"
+     ],
+     [
+      "MNRL0047",
+      "은"
+     ],
+     [
+      "MNRL0036",
+      "인광석"
+     ],
+     [
+      "MNRL0015",
+      "팔라듐"
+     ],
+     [
+      "MNRL0061",
+      "형석"
+     ],
+     [
+      "MNRL0005",
+      "흑연"
+     ]
+    ],
+    "srchPrcCrtr": [
+     [
+      "701",
+      "London Gold Market Fixing Ltd- LBMA PM Fixing Price/USD"
+     ]
+    ],
+    "spcfct": [],
+    "srchAvgOpt": [
+     [
+      "DAY",
+      "일간"
+     ],
+     [
+      "WEEK",
+      "주간"
+     ],
+     [
+      "MONTH",
+      "월간"
+     ],
+     [
+      "QUARTER",
+      "분기"
+     ],
+     [
+      "YEAR",
+      "년간"
+     ]
+    ],
+    "srchStartDate": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ]
+    ],
+    "srchEndDate": [
+     [
+      "2026",
+      "2026"
+     ],
+     [
+      "2025",
+      "2025"
+     ],
+     [
+      "2024",
+      "2024"
+     ],
+     [
+      "2023",
+      "2023"
+     ],
+     [
+      "2022",
+      "2022"
+     ],
+     [
+      "2021",
+      "2021"
+     ],
+     [
+      "2020",
+      "2020"
+     ],
+     [
+      "2019",
+      "2019"
+     ],
+     [
+      "2018",
+      "2018"
+     ],
+     [
+      "2017",
+      "2017"
+     ],
+     [
+      "2016",
+      "2016"
+     ],
+     [
+      "2015",
+      "2015"
+     ],
+     [
+      "2014",
+      "2014"
+     ],
+     [
+      "2013",
+      "2013"
+     ],
+     [
+      "2012",
+      "2012"
+     ],
+     [
+      "2011",
+      "2011"
+     ],
+     [
+      "2010",
+      "2010"
+     ],
+     [
+      "2009",
+      "2009"
+     ],
+     [
+      "2008",
+      "2008"
+     ],
+     [
+      "2007",
+      "2007"
+     ],
+     [
+      "2006",
+      "2006"
+     ],
+     [
+      "2005",
+      "2005"
+     ],
+     [
+      "2004",
+      "2004"
+     ],
+     [
+      "2003",
+      "2003"
+     ],
+     [
+      "2002",
+      "2002"
+     ],
+     [
+      "2001",
+      "2001"
+     ],
+     [
+      "2000",
+      "2000"
+     ],
+     [
+      "1999",
+      "1999"
+     ],
+     [
+      "1998",
+      "1998"
+     ],
+     [
+      "1997",
+      "1997"
+     ],
+     [
+      "1996",
+      "1996"
+     ],
+     [
+      "1995",
+      "1995"
+     ],
+     [
+      "1994",
+      "1994"
+     ],
+     [
+      "1993",
+      "1993"
+     ],
+     [
+      "1992",
+      "1992"
+     ],
+     [
+      "1991",
+      "1991"
+     ],
+     [
+      "1990",
+      "1990"
+     ],
+     [
+      "1989",
+      "1989"
+     ],
+     [
+      "1988",
+      "1988"
+     ],
+     [
+      "1987",
+      "1987"
+     ]
+    ],
+    "srchCompareMnrkndUnqCd": [
+     [
+      "",
+      "[선택]"
+     ],
+     [
+      "MNRL0046",
+      "금"
+     ],
+     [
+      "MNRL1070",
+      "루테늄"
+     ],
+     [
+      "MNRL0014",
+      "백금"
+     ],
+     [
+      "MNRL0047",
+      "은"
+     ],
+     [
+      "MNRL0036",
+      "인광석"
+     ],
+     [
+      "MNRL0015",
+      "팔라듐"
+     ],
+     [
+      "MNRL0061",
+      "형석"
+     ],
+     [
+      "MNRL0005",
+      "흑연"
+     ]
+    ],
+    "srchComparePrcCrtr": [
+     [
+      "[선택]",
+      "[선택]"
+     ]
+    ]
+   },
+   "error": null
+  }
+ ],
+ "fatal": null
+}
