@@ -1,5 +1,5 @@
 {
- "run_utc": "2026-10-22T06:05:39",
+ "run_utc": "2026-10-22T06:11:55",
  "series": {
   "us10y": {
    "ok": true,
@@ -111,12 +111,12 @@
     }
    ],
    "picked": {
-    "cdVal": "Thermal Coal",
-    "cdKey": 783
+    "cdVal": "Coking Coal",
+    "cdKey": 782
    },
    "info": {
     "mnrkndKornNm": "유연탄",
-    "prcCrtr": " Q:5500 In port Qinhuangdao",
+    "prcCrtr": "  A 10%max, V 26%max EXW Henan",
     "isISE": "Y",
     "weigUnitCd": "mt",
     "prcUnitCdNm": "USD"
